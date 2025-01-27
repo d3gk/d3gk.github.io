@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+	<entry id='test'>
+		<entry id='title'>Basic Chord Structure</entry>
+		<entry id='image'>false</entry>
+		<entry id='score'>100</entry>
+		<entry id='questions'>
+			<entry id='0'>
+				<entry id='title'>What type of chord is this?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>D,F#,A</entry>
+				<entry id='correct'>1</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Major</value>
+						<value>Minor</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='1'>
+				<entry id='title'>What type of chord is this?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>E,G,B</entry>
+				<entry id='correct'>2</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Major</value>
+						<value>Minor</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='2'>
+				<entry id='title'>What type of chord is this?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>C,Eb,G</entry>
+				<entry id='correct'>2</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Major</value>
+						<value>Minor</value>
+						<value>Augmented</value>
+						<value>Diminished</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='3'>
+				<entry id='title'>What type of chord is this?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>D,F,Ab</entry>
+				<entry id='correct'>4</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Major</value>
+						<value>Minor</value>
+						<value>Augmented</value>
+						<value>Diminished</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='4'>
+				<entry id='title'>What type of chord is this?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>C,E,G#</entry>
+				<entry id='correct'>3</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Major</value>
+						<value>Minor</value>
+						<value>Augmented</value>
+						<value>Diminished</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='5'>
+				<entry id='title'>Please build D major triade</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>D,F#,A</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>1</entry>
+				<entry id='choices'>
+					<array>
+					</array>
+				</entry>
+			</entry>
+			<entry id='6'>
+				<entry id='title'>Please build C minor triade</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>C,Eb,G</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>1</entry>
+				<entry id='choices'>
+					<array>
+					</array>
+				</entry>
+			</entry>
+			<entry id='7'>
+				<entry id='title'>Please build E minor triade</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>E,G,B</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>1</entry>
+				<entry id='choices'>
+					<array>
+					</array>
+				</entry>
+			</entry>
+			<entry id='8'>
+				<entry id='title'>Please build F diminished triade</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>F,Ab,B</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>1</entry>
+				<entry id='choices'>
+					<array>
+					</array>
+				</entry>
+			</entry>
+			<entry id='9'>
+				<entry id='title'>Please build Eb augmented triade</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>Eb,G,B</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>1</entry>
+				<entry id='choices'>
+					<array>
+					</array>
+				</entry>
+			</entry>
+		</entry>
+	</entry>
+</root>

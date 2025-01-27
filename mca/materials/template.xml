@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<root>
+	<entry id='Article'>
+		<entry id='Title'>Template</entry>
+		<entry id='Contents'>
+			<array>
+				<!-- Header of the document -->
+				<value>$t=Title Here</value>
+				<!-- Title of the part (subtitle) -->
+				<value>$s=Subtitle Here</value>
+				<!-- Regular text contents -->
+				<value>$p=Text Here\nAnd here\nThird line btw</value>
+				<!-- Image with specified drawing size -->
+				<value>$k=C,Eb,G,A</value>
+				<!-- 2-octave piano keyboard with specified keys highlighed -->
+				<value>$kk=C1,Eb1,G1,Bb1,D2,F#2</value>
+				<!-- Standard footer -->
+				<value>$f=</value>
+			</array>
+		</entry>
+	</entry>
+</root>

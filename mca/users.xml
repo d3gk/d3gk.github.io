@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+	<entry id='users'>
+		<array>
+			<value>d3ddy</value>
+			<value>maslinavpolitex</value>
+			<value>konskiyhuj1488</value>
+			<value>livopravoraguli</value>
+			<value>testerdelalamba</value>
+		</array>
+	</entry>
+	<entry id='admins'>
+		<array>
+			<value>d3ddy</value>
+		</array>
+	</entry>
+</root>

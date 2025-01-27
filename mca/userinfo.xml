@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+	<entry id='Users'>
+		<entry id='d3ddy'>
+			<entry id='Nick'>d3gkserv</entry>
+			<entry id='FirstName'>Danylo</entry>
+			<entry id='LastName'>Naum</entry>
+			<entry id='KnowledgeLevel'>255</entry>
+			<entry id='Avatar'>false</entry>
+			<entry id='Telegram'>@d3gkserv</entry>
+			<entry id='Instagram'>@d3gkserv</entry>
+			<entry id='Discord'>@d3gk</entry>
+			<entry id='Mobile'>+380952259100</entry>
+			<entry id='Email'>d3gkserv@icloud.com</entry>
+		</entry>
+		<entry id='konskiyhuj1488'>
+			<entry id='Nick'>KOHb</entry>
+			<entry id='FirstName'>Maksym</entry>
+			<entry id='LastName'>Mykhalenych</entry>
+			<entry id='KnowledgeLevel'>255</entry>
+			<entry id='Avatar'>false</entry>
+			<entry id='Telegram'>false</entry>
+			<entry id='Instagram'>false</entry>
+			<entry id='Discord'>false</entry>
+			<entry id='Mobile'>+380960061083</entry>
+			<entry id='Email'>false</entry>
+		</entry>
+		<entry id='livopravoraguli'>
+			<entry id='Nick'>d.s</entry>
+			<entry id='FirstName'>Danylo</entry>
+			<entry id='LastName'>Samraz</entry>
+			<entry id='KnowledgeLevel'>255</entry>
+			<entry id='Avatar'>false</entry>
+			<entry id='Telegram'>@NazL1ber</entry>
+			<entry id='Instagram'>@danya_s1105</entry>
+			<entry id='Discord'>@d.s</entry>
+			<entry id='Mobile'>+380991174509</entry>
+			<entry id='Email'>wolfmusic123@gmail.com</entry>
+		</entry>
+		<entry id='maslinavpolitex'>
+			<entry id='Nick'>sernway</entry>
+			<entry id='FirstName'>Serhii</entry>
+			<entry id='LastName'>Shvets</entry>
+			<entry id='KnowledgeLevel'>255</entry>
+			<entry id='Avatar'>false</entry>
+			<entry id='Telegram'>@sernway</entry>
+			<entry id='Instagram'>@seryoga_maslina</entry>
+			<entry id='Discord'>false</entry>
+			<entry id='Mobile'>+380953199903</entry>
+			<entry id='Email'>false</entry>
+		</entry>
+		<entry id='Template'>
+			<entry id='Nick'></entry>
+			<entry id='FirstName'></entry>
+			<entry id='LastName'></entry>
+			<entry id='KnowledgeLevel'></entry>
+			<entry id='Avatar'>false</entry>
+			<entry id='Telegram'>@</entry>
+			<entry id='Instagram'>@</entry>
+			<entry id='Discord'>@</entry>
+			<entry id='Mobile'>+380</entry>
+			<entry id='Email'>@.com</entry>
+		</entry>
+	</entry>
+</root>

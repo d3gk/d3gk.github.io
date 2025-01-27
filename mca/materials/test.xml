@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<root>
+	<entry id='Article'>
+		<entry id='Title'>Test document</entry>
+		<entry id='Contents'>
+			<array>
+				<value>$t=Test document</value>
+				<value>$s=Paragraph #1</value>
+				<!-- Regular text contents -->
+				<value>$p=Text Here\nAnd here\nThird line btw</value>
+				<!-- Image with specified drawing size -->
+				<value>$img=file:///C:/14H/APPS/com.d3gkserv.mca.app/mca.settings/s/images/testbitmap.bmp</value>
+				<!-- Image with standard drawing size -->
+				<value>$img=file:///C:/14H/APPS/com.d3gkserv.mca.app/mca.settings/s/images/testbitmap.bmp</value>
+				<!-- Link to another article -->
+				<value>$l=Template Link:template.xml</value>
+				<!-- Standard piano keyboard with specified keys highlighed -->
+				<value>$k=C,Eb,G,Bb</value>
+				<!-- 2-octave piano keyboard with specified keys highlighed -->
+				<value>$kk=C1,Eb1,G1,Bb1,D2,F2</value>
+				<!-- Standard footer -->
+				<value>$f=</value>
+			</array>
+		</entry>
+	</entry>
+</root>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+	<entry id='tests'>
+		<array>
+			<value>0001</value>
+			<value>0101</value>
+		</array>
+	</entry>
+</root>
