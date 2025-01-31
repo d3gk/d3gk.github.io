@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<root>
+	<entry id='LatestVersion'>
+		<entry id='Title'>0.1ap(100[plt0726p]) Update</entry>
+		<entry id='Description'>0.1ap(100[plt0726p]) update is first public beta of MCA.</entry>
+		<entry id='Version'>0.1ap</entry>
+		<entry id='Build'>100</entry>
+		<entry id='Beta'>true</entry>
+	</entry>
+</root>
