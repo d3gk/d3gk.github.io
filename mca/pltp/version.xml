@@ -1,10 +1,12 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <root>
-	<entry id='latest'>100</entry>
+	<entry id='latest'>101</entry>
 	<entry id='versions'>
 		<dictionary>
 			<key>100</key>
 			<value>0.1ap.xml</value>
+			<key>101</key>
+			<value>0.1p.xml</value>
 		</dictionary>
 	</entry>
 </root>
