@@ -2,7 +2,6 @@
 <root>
 	<entry id='materials'>
 		<array>
-			<value>test.xml</value>
 		</array>
 	</entry>
 </root>

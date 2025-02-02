@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+	<entry id='test'>
+		<entry id='title'>Advanced Chord Structure</entry>
+		<entry id='image'>false</entry>
+		<entry id='score'>100</entry>
+		<entry id='questions'>
+			<entry id='0'>
+				<entry id='title'>What chord is this?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>C,D,G</entry>
+				<entry id='correct'>3</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Cadd9</value>
+						<value>Cadd11</value>
+						<value>Csus2</value>
+						<value>Csus4</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='1'>
+				<entry id='title'>What chord is this?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>C,D,E,G</entry>
+				<entry id='correct'>1</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Cadd9</value>
+						<value>Cadd11</value>
+						<value>Csus2</value>
+						<value>Csus4</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='2'>
+				<entry id='title'>What chord is this?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>C,Eb,F,G</entry>
+				<entry id='correct'>2</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Cm11</value>
+						<value>Cm(add11)</value>
+						<value>Csus4</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='4'>
+				<entry id='title'>Which mode does this chord's name refference?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>C,Eb,G,A</entry>
+				<entry id='correct'>1</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>3</entry>
+				<entry id='choices'>
+					<array>
+						<value>Aeolian</value>
+						<value>Phrygian</value>
+						<value>Dorian</value>
+						<value>Locrian</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='5'>
+				<entry id='title'>Which notation is INCORRECT?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>C,Eb,G,Ab</entry>
+				<entry id='correct'>4</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Cm6b</value>
+						<value>Cm6-</value>
+						<value>Cm-6</value>
+						<value>Cm(no6)</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='6'>
+				<entry id='title'>Which notation is INCORRECT?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>C,Eb,F,Ab</entry>
+				<entry id='correct'>3</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Cm11(no5)</value>
+						<value>Cm11(omit5)</value>
+						<value>Cm11-5</value>
+						<value>Ab6/C</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='7'>
+				<entry id='title'>What defines, that chord has no 'V' scale?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>3</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>(-5)</value>
+						<value>(5b)</value>
+						<value>(omit5)</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='8'>
+				<entry id='title'>Please build Cm11 chord</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>C,Eb,F,G,Bb</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>1</entry>
+				<entry id='choices'>
+					<array>
+					</array>
+				</entry>
+			</entry>
+			<entry id='9'>
+				<entry id='title'>Please build Cmaj13(omit3) chord</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>C,G,A,B</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>1</entry>
+				<entry id='choices'>
+					<array>
+					</array>
+				</entry>
+			</entry>
+		</entry>
+	</entry>
+</root>

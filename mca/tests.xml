@@ -2,8 +2,8 @@
 <root>
 	<entry id='tests'>
 		<array>
-			<value>0001</value>
 			<value>0101</value>
+			<value>0102</value>
 		</array>
 	</entry>
 </root>
