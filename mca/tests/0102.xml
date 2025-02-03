@@ -52,7 +52,7 @@
 					</array>
 				</entry>
 			</entry>
-			<entry id='4'>
+			<entry id='3'>
 				<entry id='title'>Which mode does this chord's name refference?</entry>
 				<entry id='image'>false</entry>
 				<entry id='piano'>C,Eb,G,A</entry>
@@ -68,7 +68,7 @@
 					</array>
 				</entry>
 			</entry>
-			<entry id='5'>
+			<entry id='4'>
 				<entry id='title'>Which notation is INCORRECT?</entry>
 				<entry id='image'>false</entry>
 				<entry id='piano'>C,Eb,G,Ab</entry>
@@ -84,7 +84,7 @@
 					</array>
 				</entry>
 			</entry>
-			<entry id='6'>
+			<entry id='5'>
 				<entry id='title'>Which notation is INCORRECT?</entry>
 				<entry id='image'>false</entry>
 				<entry id='piano'>C,Eb,F,Ab</entry>
@@ -100,7 +100,7 @@
 					</array>
 				</entry>
 			</entry>
-			<entry id='7'>
+			<entry id='6'>
 				<entry id='title'>What defines, that chord has no 'V' scale?</entry>
 				<entry id='image'>false</entry>
 				<entry id='piano'>false</entry>
@@ -115,7 +115,7 @@
 					</array>
 				</entry>
 			</entry>
-			<entry id='8'>
+			<entry id='7'>
 				<entry id='title'>Please build Cm11 chord</entry>
 				<entry id='image'>false</entry>
 				<entry id='piano'>false</entry>
@@ -127,11 +127,23 @@
 					</array>
 				</entry>
 			</entry>
-			<entry id='9'>
+			<entry id='8'>
 				<entry id='title'>Please build Cmaj13(omit3) chord</entry>
 				<entry id='image'>false</entry>
 				<entry id='piano'>false</entry>
 				<entry id='correct'>C,G,A,B</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>1</entry>
+				<entry id='choices'>
+					<array>
+					</array>
+				</entry>
+			</entry>
+			<entry id='8'>
+				<entry id='title'>Please build C13(no5) chord</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>C,E,A,Bb</entry>
 				<entry id='score'>10</entry>
 				<entry id='type'>1</entry>
 				<entry id='choices'>
