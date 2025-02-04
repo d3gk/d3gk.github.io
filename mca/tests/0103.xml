@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+	<entry id='test'>
+		<entry id='title'>Diatonic Modes: Basics</entry>
+		<entry id='image'>false</entry>
+		<entry id='score'>100</entry>
+		<entry id='questions'>
+			<entry id='0'>
+				<entry id='title'>Home many major diat. modes are there?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>2</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>1</value>
+						<value>3</value>
+						<value>4</value>
+						<value>5</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='1'>
+				<entry id='title'>What is NOT TRUE about Aeolian</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>4</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>It is a mode</value>
+						<value>It is diatonic</value>
+						<value>It is also reffered as 'Natural Minor'</value>
+						<value>It cannot be defined as major or minor</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='2'>
+				<entry id='title'>Home many minor diat. modes are there?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>2</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>1</value>
+						<value>3</value>
+						<value>4</value>
+						<value>5</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='3'>
+				<entry id='title'>What is NOT TRUE about Locrian</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>3</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>It is a mode</value>
+						<value>It is diatonic</value>
+						<value>It is built on IV d. of major scale</value>
+						<value>It cannot be defined as major or minor</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='4'>
+				<entry id='title'>Which mode is the brightest of diatonic modes?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>1</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Lydian</value>
+						<value>Dorian</value>
+						<value>Locrian</value>
+						<value>Mixolydian</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='5'>
+				<entry id='title'>What is TRUE about diatonic modes?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>1</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>They can be built using notes of major scale</value>
+						<value>They never have tritone</value>
+						<value>All modes share 2 notes</value>
+						<value>They always have 5th from I degree</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='6'>
+				<entry id='title'>Lydian is...</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>4</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Major (7b)</value>
+						<value>Minor (6#)</value>
+						<value>Minor (2b)</value>
+						<value>Major (4#)</value>
+						<value>Minor (b2b5)</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='7'>
+				<entry id='title'>Dorian is...</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>2</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Major (7b)</value>
+						<value>Minor (6#)</value>
+						<value>Minor (2b)</value>
+						<value>Major (4#)</value>
+						<value>Minor (b2b5)</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='8'>
+				<entry id='title'>Mixolydian is...</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>1</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Major (7b)</value>
+						<value>Minor (6#)</value>
+						<value>Minor (2b)</value>
+						<value>Major (4#)</value>
+						<value>Minor (b2b5)</value>
+					</array>
+				</entry>
+			</entry>
+			<entry id='9'>
+				<entry id='title'>What is NOT real definition of the d-c mode?</entry>
+				<entry id='image'>false</entry>
+				<entry id='piano'>false</entry>
+				<entry id='correct'>4</entry>
+				<entry id='score'>10</entry>
+				<entry id='type'>0</entry>
+				<entry id='choices'>
+					<array>
+						<value>Major (7b)</value>
+						<value>Minor (6#)</value>
+						<value>Minor (2b)</value>
+						<value>Minor (6b)</value>
+						<value>Major (4#)</value>
+						<value>Minor (b2b5)</value>
+					</array>
+				</entry>
+			</entry>
+		</entry>
+	</entry>
+</root>
