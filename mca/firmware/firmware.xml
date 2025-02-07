@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<root>
+	<entry id='firmware'>
+		<entry id='latest'>116</entry>
+		<entry id='signed'>
+			<array>
+				<value>116</value>
+			</array>
+		</entry>
+		<entry id='unsigned'>
+			<array/>
+		</entry>
+	</entry>
+</root>

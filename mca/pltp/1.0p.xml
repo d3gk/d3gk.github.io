@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<root>
+	<entry id='checksum'>
+		<entry id='mca'></entry>
+		<entry id='pltp-resources-bin'></entry>
+		<entry id='pltpboot-exe'></entry>
+		<entry id='pltcommon-dll'></entry>
+		<entry id='portableui-dll'></entry>
+		<entry id='cryptlib-exe'></entry>
+	</entry>
+</root>
