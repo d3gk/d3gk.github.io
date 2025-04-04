@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <root>
 	<entry id='LatestVersion'>
-		<entry id='Title'>1.0 Beta 2 Update</entry>
-		<entry id='Description'>Version: 1.0b2p (116/plt0726p). This update brings automated updates along with various bug fixes.</entry>
-		<entry id='Version'>1.0b2p</entry>
-		<entry id='Build'>116</entry>
+		<entry id='Title'>1.0 Beta 3 Update</entry>
+		<entry id='Description'>Version: 1.0b3plt0812 (266/plt0812).</entry>
+		<entry id='Version'>1.0b3plt0812</entry>
+		<entry id='Build'>266</entry>
 		<entry id='Beta'>true</entry>
 	</entry>
 </root>
