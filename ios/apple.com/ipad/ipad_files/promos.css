@@ -1,0 +1,178 @@
+/* showcase
+------------------------*/
+#showcase { margin-bottom:10px; }
+
+#showcase .promo-lead,
+#showcase .promo-lead .lead { float:none; width:980px; height:618px; }
+#showcase .promo-lead { position:relative; font-size:16px; line-height:1.5; color:#000; }
+#showcase .promo-lead a.block { color:#000; }
+#showcase .promo-lead .lead { display:block; }
+
+#showcase.promo-rotation .promo-lead .lead { position:absolute; }
+
+#showcase .promo-lead { min-height:580px; _height:580px; }
+#showcase .promo-lead h1 { display:inline; }
+#showcase .promo-lead h1 img { padding:154px 0 0 84px; }
+#showcase .promo-lead img.right { margin-top:0; }
+#showcase .promo-lead.split-promos { position:relative; min-height:618px; }
+#showcase .promo-lead.split-promos img.hero { position:absolute; top:0; left:0; }
+#showcase .promo-lead.split-promos .ipad-herotitle { display:block; position:absolute; top:287px; left:28px; width:170px; height:90px; background-image:url(http://web.archive.org/web/20121130094530im_/https://www.apple.com/global/elements/blank.gif); }
+#showcase .promo-lead.split-promos .ipad-herotitle h1 { position:absolute; left:-99999px; }
+#showcase .promo-lead.split-promos .ipad-hero { display:block; position:absolute; top:119px; left:220px; width:363px; height:470px; z-index:1; background-image:url(http://web.archive.org/web/20121130094530im_/https://www.apple.com/global/elements/blank.gif); }
+#showcase .promo-lead.split-promos .ipadmini-herotitle { display:block; position:absolute; top:298px; left:733px; display:block; width:226px; height:67px; background-image:url(http://web.archive.org/web/20121130094530im_/https://www.apple.com/global/elements/blank.gif); }
+#showcase .promo-lead.split-promos .ipadmini-herotitle h1 { position:absolute; left:-99999px; }
+#showcase .promo-lead.split-promos .ipadmini-hero { display:block; position:absolute; top:86px; left:451px; width:289px; height:400px; z-index:5; background-image:url(http://web.archive.org/web/20121130094530im_/https://www.apple.com/global/elements/blank.gif); }
+
+#showcase .tvspot .play { position:absolute; top:131px; left:138px; display:block; width:46px; height:46px; background:url(http://web.archive.org/web/20121130094530im_/https://www.apple.com/v/ipad/home/b/images/video_play_medium.png) no-repeat 0 0; opacity:.5; _behavior:url(/web/20121130094530im_/https://www.apple.com/global/scripts/lib/iepngfix.htc);
+	-webkit-transition:.25s opacity ease-out;
+	   -moz-transition:.25s opacity ease-out;
+	        transition:.25s opacity ease-out;
+}
+#showcase .tvspot:hover .play { background-position:0 -46px; opacity:1; }
+
+@media only screen {
+	#showcase .tvspot .play { background-image:url(/web/20121130094530im_/https://www.apple.com/v/ipad/home/b/images/video_play_medium.svg); }
+}
+
+#showcase .promos { padding-bottom:10px; margin-bottom:15px; zoom:1; *margin-right:-2px; background:url(http://web.archive.org/web/20121130094530im_/https://www.apple.com/v/ipad/home/b/images/showcase_divider.jpg) no-repeat; }
+#showcase .promos:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+#showcase .promos a { margin-bottom:0; margin-left:8px; }
+#showcase .promos a:nth-child(1n) { margin-left:10px; }
+#showcase .promos a.first { margin-left:0; }
+
+#showcase .promos { position:relative; height:225px; }
+#showcase .promos a { position:absolute; top:0; }
+#showcase .promos .column { display:block; height:235px; }
+#showcase .promos a.first img { position:absolute; top:0; left:0; }
+#showcase .promos a.first { left:0; }
+#showcase .promos a.second { left:320px; *left:322px; }
+#showcase .promos a.third { right:0; }
+
+/* Holiday
+------------------------*/
+/*#promos {
+	width: auto;
+	background:#fcfcfc;
+	background:-webkit-linear-gradient(top, rgba(243,243,243,1) 0%, rgba(252,252,252,1) 40%, rgba(252,252,252,1) 100%);
+	background:   -moz-linear-gradient(top, rgba(243,243,243,1) 0%, rgba(252,252,252,1) 40%, rgba(252,252,252,1) 100%);
+	background:     -o-linear-gradient(top, rgba(243,243,243,1) 0%, rgba(252,252,252,1) 40%, rgba(252,252,252,1) 100%);
+	background:        linear-gradient(top, rgba(243,243,243,1) 0%, rgba(252,252,252,1) 40%, rgba(252,252,252,1) 100%);
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#promos a { border-top: 1px solid #FFF; }
+#promos .divider { width: 1px; background: #e0e0e0; position: absolute; left: 50%; top: 50%; height: 90px; margin-top: -45px; }
+#promos h1, #promos p { display: none; }
+#promos section { width: 50%; height: 106px; float: left !important; margin: 0; }
+#promos a { position: relative; z-index: 2; width: 100%; height: 100%; padding: 1px; margin: 0px 0 0 -1px; }*/
+#promos {
+	width: auto;
+	background:#fcfcfc;
+	background:-webkit-linear-gradient(top, rgba(243,243,243,1) 0%, rgba(252,252,252,1) 40%, rgba(252,252,252,1) 100%);
+	background:   -moz-linear-gradient(top, rgba(243,243,243,1) 0%, rgba(252,252,252,1) 40%, rgba(252,252,252,1) 100%);
+	background:     -o-linear-gradient(top, rgba(243,243,243,1) 0%, rgba(252,252,252,1) 40%, rgba(252,252,252,1) 100%);
+	background:        linear-gradient(top, rgba(243,243,243,1) 0%, rgba(252,252,252,1) 40%, rgba(252,252,252,1) 100%);
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#promos a { border-top: 1px solid #FFF; }
+#promos .divider { width: 1px; background: #e0e0e0; position: absolute; left: 50%; top: 50%; height: 90px; margin-top: -45px; }
+#promos section { width: 50%; height: 106px; float: left !important; margin: 0; }
+#promos a.block { position: relative; z-index: 2; width: 100%; height: 100%; padding: 1px; margin: -1px 0 0 -1px; }
+
+/* Holiday Engraving Promo */
+#promos section.engraving h1, #promos section.engraving p { display: none; }
+#promos section.engraving a { background: url(http://web.archive.org/web/20121130094530im_/https://www.apple.com/ipad/home/images/promo_holiday_engraving.png) 22px 100% no-repeat; background-size: 452px 102px; }
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+	#promos section.engraving a { background-image: url(http://web.archive.org/web/20121130094530im_/https://www.apple.com/ipad/home/images/promo_holiday_engraving_2x.png); }
+}
+
+/* Holiday Gift Guide Promo */
+#promos section.giftguide h1, #promos section.giftguide p { display: none; }
+#promos section.giftguide a { background: url(http://web.archive.org/web/20121130094530im_/https://www.apple.com/ipad/home/images/promo_holiday_giftguide.png) 100% 16px no-repeat; background-size: 469px 88px; }
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+	#promos section.giftguide a { background-image: url(http://web.archive.org/web/20121130094530im_/https://www.apple.com/ipad/home/images/promo_holiday_giftguide_2x.png); }
+}
+
+/* Black Friday Teaser */
+#promos section.blackfriday_t, #promos section.blackfriday_t h1, #promos section.blackfriday_t .arrow, #promos section.blackfriday_t .ipad { background: url(http://web.archive.org/web/20121130094530im_/https://www.apple.com/ipad/home/images/promo_blackfriday_t.png) no-repeat; background-size: 490px 250px; }
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+	#promos section.blackfriday_t, #promos section.blackfriday_t h1, #promos section.blackfriday_t .arrow, #promos section.blackfriday_t .ipad { background-image: url(http://web.archive.org/web/20121130094530im_/https://www.apple.com/ipad/home/images/promo_blackfriday_t_2x.png); }
+}
+#promos section.blackfriday_t, #promos section.blackfriday_t a { -webkit-border-radius: 4px 0px 0px 4px; -moz-border-radius: 4px 0px 0px 4px; -khtml-border-radius: 4px 0px 0px 4px; -o-border-radius: 4px 0px 0px 4px; border-radius: 4px 0px 0px 4px; }
+#promos section.blackfriday_t { background-color: #69b84f; }
+#promos section.blackfriday_t a { display: block; width: 100%; height: 100%; text-decoration: none; border-top: 1px solid #69b84f; }
+#promos section.blackfriday_t h1, #promos section.blackfriday_t p { margin-left: 127px; }
+#promos section.blackfriday_t h1 { width: 261px; height: 41px; text-indent: -9999px; background-position: 0 -107px; margin-top: 20px; margin-bottom: 0px; cursor: pointer; }
+#promos section.blackfriday_t p { color: #FFF; line-height: 1.25em; }
+#promos section.blackfriday_t .link { display: block; clear: both; float: left; color: #114200; position: relative; padding-right: 0.75em; cursor: pointer; }
+#promos section.blackfriday_t a:hover .link { text-decoration: underline; }
+#promos section.blackfriday_t .arrow { display: block; width: 4px; height: 7px; position: absolute; right: 0; top: 50%; margin-top: -3px; background-position: -486px -242px; }
+#promos section.blackfriday_t .ipad { display: block; width: 83px; height: 93px; position: absolute; bottom: 0; left: 25px; background-position: 0 -148px; cursor: pointer; }
+
+/* Black Friday Day Of */
+#promos .blackfriday_d, #promos .blackfriday_d h1, #promos .blackfriday_d .button, #promos .blackfriday_d .ipad { background: url(http://web.archive.org/web/20121130094530im_/https://www.apple.com/ipad/home/images/promo_blackfriday_d.png) no-repeat; background-size: 980px 262px; }
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+	#promos .blackfriday_d, #promos .blackfriday_d h1, #promos .blackfriday_d .button, #promos .blackfriday_d .ipad { background-image: url(http://web.archive.org/web/20121130094530im_/https://www.apple.com/ipad/home/images/promo_blackfriday_d_2x.png); }
+}
+#promos .blackfriday_d { width: 980px; background-color: #69b84f; float: none; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; -khtml-border-radius: 4px; }
+#promos .blackfriday_d a { display: block; width: 100%; height: 100%; text-decoration: none;}
+#promos .blackfriday_d h1, #promos .blackfriday_d p { position: relative; left: 188px; top: 29px; }
+#promos .blackfriday_d h1 { width: 250px; height: 33px; text-indent: -9999px; background-position: 0 -107px; margin-bottom: 0; cursor: pointer; }
+#promos .blackfriday_d p { font-size: 18px; line-height: 1.5em; color: #FFF; position: relative; float: left; clear: both; margin: -5px 0 0 0; cursor: pointer;}
+#promos .blackfriday_d p:hover, #promos .blackfriday_d h1:hover { text-decoration: none; }
+#promos .blackfriday_d .button { display: block; position: absolute; bottom: 2px; left: 100%; margin-left: 18px; width: 80px; height: 22px; background-position: 0 -140px; text-indent: -9999px; cursor: pointer; }
+#promos .blackfriday_d .ipad { position: absolute; bottom: 0; right: 194px; display: block; width: 141px; height: 99px; background-position: 0 -163px; cursor: pointer !important; }
+
+
+/* why ipad
+------------------------*/
+#buckets { margin-bottom:15px; font-size:1.167em; line-height:1.45em; }
+#buckets a.more:hover { text-decoration:underline; }
+#buckets h1 { font-size:1.5em; font-weight:normal; margin-top:-2px; margin-bottom:5px; }
+#buckets p { width:155px; color:#000; }
+#buckets .column { position:relative; z-index:1; width:481px; background:#fcfcfc;
+	background:-webkit-linear-gradient(top, rgba(243,243,243,1) 0%, rgba(252,252,252,1) 40%, rgba(252,252,252,1) 100%);
+	background:   -moz-linear-gradient(top, rgba(243,243,243,1) 0%, rgba(252,252,252,1) 40%, rgba(252,252,252,1) 100%);
+	background:     -o-linear-gradient(top, rgba(243,243,243,1) 0%, rgba(252,252,252,1) 40%, rgba(252,252,252,1) 100%);
+	background:        linear-gradient(top, rgba(243,243,243,1) 0%, rgba(252,252,252,1) 40%, rgba(252,252,252,1) 100%);
+}
+#buckets .column a { padding:20px 20px 0 40px; min-height:163px; _height:163px; border:1px solid #fff; }
+#buckets .column img.bottom { position:absolute; z-index:1; bottom:0; right:0; }
+
+/* buy now strip
+------------------------*/
+#buystrip { background-color:#fff; border:1px solid; border-color:#e5e5e5 #dbdbdb #d2d2d2;
+	-webkit-border-radius:4px;
+	   -moz-border-radius:4px;
+	        border-radius:4px;
+	-webkit-box-shadow:inset rgba(0,0,0,0.3) 0 1px 3px, inset rgba(0,0,0,0.7) 0 -1px 3px -2px;
+	   -moz-box-shadow:inset rgba(0,0,0,0.3) 0 1px 3px, inset rgba(0,0,0,0.7) 0 -1px 3px -2px;
+	        box-shadow:inset rgba(0,0,0,0.3) 0 1px 3px, inset rgba(0,0,0,0.7) 0 -1px 3px -2px;
+}
+#buystrip:nth-child(1n) { border:none; }
+/*
+     FILE ARCHIVED ON 09:45:30 Nov 30, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:34:38 Apr 07, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.783
+  exclusion.robots: 0.024
+  exclusion.robots.policy: 0.01
+  esindex: 0.013
+  cdx.remote: 11.721
+  LoadShardBlock: 98.589 (6)
+  PetaboxLoader3.datanode: 104.119 (7)
+  load_resource: 15.051
+*/

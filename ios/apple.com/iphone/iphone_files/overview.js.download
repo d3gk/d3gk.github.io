@@ -1,0 +1,48 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+var NestedVideoViewer=AC.Class({initialize:function(c,d){this._element=AC.Element.getElementById(c);
+this._nestedGallery=AC.AutoGallery.galleries[d];this._nestedSlideshow=AC.AutoGallery.slideshows[d];
+this._dotNav=AC.Element.selectAll(".dot-nav",this._element)[0];this._viewer=null;
+AC.Object.synthesize(this);this.__setupViewer()},__setupViewer:function(){var b=new AC.ViewMaster.Viewer([$("gallery-hero-videos-default")],this.element(),this.element().id,{manageZ:true,escapeToClose:true,ensureInView:true,showFirstOnStopMovie:true,silentTriggers:true,shouldAnimateContentChange:(AC.Environment.Browser.os!=="iOS")});
+this.setViewer(b);this.viewer().setDelegate(this)},didShow:function(f,d,e){this.__isFirstDidShow=this.__isFirstDidShow===true?false:true;
+if(e){if(e.id!=="gallery-hero-videos-default"){this.nestedSlideshow().stop();Element.addClassName(this.element(),"show-overflow")
+}else{$(this._dotNav).setOpacity(0.99);this._dotNav.offsetHeight;$(this._dotNav).setOpacity(1)
+}}},willShow:function(f,d,e){if(e){if(e.id==="gallery-hero-videos-default"){Element.removeClassName(this.element(),"show-overflow");
+if(this.__isFirstDidShow){this.nestedSlideshow()._active=true;this.nestedSlideshow().play()
+}}}}});AC.AutoGallery.addType("slide-directional",{},Prototype.emptyFunction,"slide",{viewer:AC.ViewMaster.SlideViewer,delegate:{willShow:function(i,j,f){var h=i.indexOfSection(j);
+var g=i.indexOfSection(f);if(g<h){Element.addClassName(i.view.view(),"backwards")
+}else{Element.removeClassName(i.view.view(),"backwards")}window.setTimeout(function(){if(f&&f.content){Element.addClassName(f.content,"animate")
+}if(j&&j.content){Element.removeClassName(j.content,"animate")}},10)},didShow:function(f,d,e){window.setTimeout(function(){if(e&&e.content&&!d){Element.addClassName(e.content,"animate")
+}},10)}}});
+
+}
+/*
+     FILE ARCHIVED ON 19:40:35 Dec 01, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:32:03 Apr 07, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.551
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.009
+  esindex: 0.012
+  cdx.remote: 6.644
+  LoadShardBlock: 85.338 (3)
+  PetaboxLoader3.datanode: 97.148 (5)
+  load_resource: 228.775 (2)
+  PetaboxLoader3.resolve: 155.602 (2)
+*/

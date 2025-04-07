@@ -1,0 +1,27 @@
+/* Overrides for sosumi. */
+div#globalfooter p.sosumi { float:none; margin:0; padding:0 3px; width:980px; text-align:left; }
+
+@media only screen and (max-device-width: 768px) {
+	#promobar .column.last { -webkit-transform: translateX(-1px); }
+}
+
+/*
+     FILE ARCHIVED ON 09:40:00 Nov 30, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:32:47 Apr 07, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.507
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 15.905
+  LoadShardBlock: 92.782 (3)
+  PetaboxLoader3.datanode: 274.458 (5)
+  load_resource: 468.31 (2)
+  PetaboxLoader3.resolve: 245.283 (2)
+*/

@@ -1,0 +1,44 @@
+#billboard { position:relative; z-index:1; margin:36px auto 24px; width:980px; }
+
+#billboard .hero-image { display:block; position:relative; z-index:1; }
+#billboard .hero-image img { display:block; }
+
+@media only screen and (min-device-width:320px) and (max-device-width:768px) {
+	#billboard .ipad-mini { width:1002px; overflow:hidden; }
+}
+#billboard .ipad-mini .column.first { position:relative; z-index:2; width:440px; padding-bottom:50px; background-color:#fff; }
+#billboard .ipad-mini .hero-title { margin:119px 0 80px; text-align:center; }
+#billboard .ipad-mini .hero-title img { margin:0 auto; }
+#billboard .ipad-mini .hero-image { float:right; width:738px; margin-top:-483px; margin-right:-65px; }
+
+#billboard .ipad-retina .hero-title { display:block; margin-bottom:-5px; }
+#billboard .ipad-retina .hero-title img { display:block; margin:0 auto; }
+
+#billboard .ipad-retina .hero-image { display:block; margin-left:-2px; margin-bottom:-30px; }
+
+#billboard .imac .hero-image,
+#billboard .imac .hero-title { position:relative; }
+#billboard .imac .hero-title { float:left; margin-right:-100px; padding:250px 0 0 80px; *padding-top:240px; z-index:2; }
+#billboard .imac .hero-title img { _position:absolute; _z-index:2; }
+#billboard .imac .hero-image { display:block; _display:inline; margin:-15px 72px 0 0; *margin-top:-25px; z-index:1; }
+
+/*
+     FILE ARCHIVED ON 19:02:29 Dec 02, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:29:07 Apr 07, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.528
+  exclusion.robots: 0.021
+  exclusion.robots.policy: 0.011
+  esindex: 0.011
+  cdx.remote: 10.435
+  LoadShardBlock: 397.51 (3)
+  PetaboxLoader3.datanode: 325.009 (4)
+  load_resource: 562.368
+  PetaboxLoader3.resolve: 503.704
+*/

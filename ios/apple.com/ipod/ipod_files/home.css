@@ -1,0 +1,130 @@
+html, body { background:#e6e6e6 url(http://web.archive.org/web/20121130094011im_/https://www.apple.com/v/ipod/home/b/images/gradient_texture.png) repeat 0 0; }
+
+#main { width:982px; margin:0 auto; overflow:visible; }
+
+.content { font-size:12px; line-height:21px; }
+.content h4 { font-size:1em; line-height:1.2em; }
+.sosumi { width:940px; padding:0 20px; margin:0 auto 18px; }
+.sosumi a { color:#333; }
+.flushright { margin-right:-50px; _position:relative; _z-index:1; }
+.flushleft { margin-left:-50px; _position:relative; _z-index:1; }
+
+
+/* boxes
+------------------------*/
+/* showcase */
+#showcase { margin-bottom:10px; }
+#showcase .content { float:left; width:320px; height:210px; padding:0; color:#888; }
+#showcase .content h2 { font-size:1.2em; font-weight:bold; }
+#showcase .content img { display:block; }
+
+#showcase .promo-lead { float:none; width:980px; height:410px; _height:380px; margin:0 0 10px; }
+#showcase .promo-lead a { float:none; width:980px; height:410px; margin:0 0 10px; _margin-bottom: -2px;}
+#showcase .promo-lead { position:relative; }
+#showcase .promo-lead a { display:block; }
+
+#showcase .promos a { margin-bottom:0; margin-left:8px; }
+#showcase .promos a:nth-child(1n) { margin-left:10px; }
+#showcase .promos a.first { margin-left:0; }
+
+
+/* promobar */
+#promobar { clear:both; margin-bottom:15px; width:980px; padding:0; font-size:1em; line-height:1.25em; border-top:1px solid #fff; 
+	background-image:-webkit-gradient(linear, 0 0, 0 35, from(#f7f7f7), to(#fff));
+	background-image:-moz-linear-gradient(center top, #f7f7f7 0%, #fff 35px);
+}
+#promobar a { color:#85898c; }
+#promobar h4 { margin-bottom:1px; /* Holiday Engraving headline nudge */ margin-left: -5px;  }
+#promobar p { margin-bottom:0; /* Holiday Engraving headline nudge */ margin-left: -5px; }
+#promobar img { display:block; position:absolute; bottom:0; }
+#promobar .column.first { border-left:none; }
+#promobar .column { min-height:145px; *height:145px; position:relative; z-index:1; zoom:1; display:inline; width:165px; margin:0; padding:15px 15px 0; border-left:1px solid #f0f0f0; }
+#promobar .column:hover {
+	background-image:-webkit-gradient(linear, 0 0, 0 70, from(#ebebeb), to(#fff));
+	background-image:-moz-linear-gradient(top, #ebebeb, #fff 70px);
+}
+
+/* individual promos */
+#promobar .compare img { left:36px; }
+#promobar .ios img { left:66px; bottom:6px; }
+#promobar .ios .more { text-align:left; }
+#promobar .ad img { left:36px; }
+#promobar .tv-ad img { left:29px; bottom:12px; }
+#promobar .engrave img { left:51px; }
+#promobar .productred img { left:12px; }
+
+/* black friday promo tile
+------------------------*/
+#promobar .blackfriday_t { background: #64b14a url(http://web.archive.org/web/20121130094011im_/https://www.apple.com/ipod/home/images/promobar_blackfriday_t.jpg) 0 0 no-repeat !important; background-size: 197px 161px; border-top: 1px solid #6bba51; margin: -1px -1px 0 0; width: 167px; }
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+	#promobar .blackfriday_t { background-image: url(http://web.archive.org/web/20121130094011im_/https://www.apple.com/ipod/home/images/promobar_blackfriday_t_2x.jpg) !important; }
+}
+#promobar .blackfriday_t h4, #promobar .blackfriday_t p { display: none; }
+
+/* black friday promobar takeover
+------------------------*/
+#promobar.blackfriday_d, #promobar.blackfriday_d h1, #promobar.blackfriday_d .button, #promobar.blackfriday_d .ipad { background: url(http://web.archive.org/web/20121130094011im_/https://www.apple.com/ipod/home/images/promobar_blackfriday_d.png) no-repeat; background-size: 980px 375px; }
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+	#promobar.blackfriday_d, #promobar.blackfriday_d h1, #promobar.blackfriday_d .button, #promobar.blackfriday_d .ipad { background-image: url(http://web.archive.org/web/20121130094011im_/https://www.apple.com/ipod/home/images/promobar_blackfriday_d_2x.png); }
+}
+#promobar.blackfriday_d { background-color: #64b14a; background-position: 0 0; border-top: none;}
+#promobar.blackfriday_d a { display: block; height: 163px; color: #FFF; position: relative; text-decoration: none; cursor: pointer !important; }
+#promobar.blackfriday_d .copy { position: absolute; left: 154px; width: 500px; height: 63px; padding: 38px 0 0 0; }
+#promobar.blackfriday_d h1 { margin: 0; width: 290px; height: 38px; background-position: 0 -163px; text-indent: -9999px; cursor: pointer; }
+#promobar.blackfriday_d h2 { color: #FFF; font-weight: normal; text-align: left; font-size: 20px; line-height: 22px; height: 20px; margin-bottom: 9px; cursor: pointer; }
+#promobar.blackfriday_d .button { display: block; width: 79px; height: 22px; background-position: 0 -201px; margin: 0; text-indent: -9999px; cursor: pointer; }
+#promobar.blackfriday_d a:hover .button {}
+#promobar.blackfriday_d a:active .button {}
+#promobar.blackfriday_d .ipad { display: block; width: 209px; height: 151px; background-position: 0 -224px; position: absolute; bottom: 0; right: 134px; cursor: pointer; }
+
+
+/* Holiday Gift Guide */
+#promobar .column.holiday p { z-index: 1; }
+#promobar .column.holiday img { margin-left:-15px; z-index: -1;}
+#promobar .column.holiday h4 { color:#cc0000; }
+
+/* Holiday Engraving */
+#promobar .column.holiday-engraving { width:175px; padding-right:5px; }
+#promobar .column.holiday-engraving img { left:43px; }
+#promobar .column.holiday-engraving h4 { color:#cc0000; }
+#promobar .column.holiday-engraving p { padding-right: 20px; }
+
+
+/* itunes module
+------------------------*/
+#itunes { padding:20px 0 0 33px; margin-bottom:18px; height:301px; width:947px; font-size:14px; line-height:20px; text-shadow:0 1px #fff; background:url(http://web.archive.org/web/20121130094011im_/https://www.apple.com/v/ipod/home/b/images/itunes_bg.jpg) no-repeat 50% 0; }
+#itunes h1 { padding-top:8px; margin-bottom:0; }
+#itunes p { width:440px; margin-bottom:22px; color:#666; }
+#itunes a { width:440px !important; }
+#itunes img.right { margin-left:0; margin-bottom:0; }
+
+
+/* global footer
+------------------------*/
+#globalfooter p.sosumi { float:right; width:560px; margin:-25px 0 0; padding-right:0; color:#888; line-height:1.4em; text-align:right; *margin:-15px 0 0; }
+#globalfooter #breadory,
+#globalfooter #directorynav { border-color:#ccc; }
+
+
+/*
+     FILE ARCHIVED ON 09:40:11 Nov 30, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:32:47 Apr 07, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.594
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.008
+  esindex: 0.012
+  cdx.remote: 6.772
+  LoadShardBlock: 892.917 (3)
+  PetaboxLoader3.datanode: 838.154 (4)
+  load_resource: 97.121
+  PetaboxLoader3.resolve: 79.618
+*/

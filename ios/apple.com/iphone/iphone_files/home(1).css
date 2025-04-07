@@ -1,0 +1,297 @@
+/* Gallery - Fallback
+---------------------------*/
+/* hero */
+body .gallery-hero .image,
+body .gallery-hero.alt .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_fallback_hero.jpg); }
+body .gallery-hero .title { width:457px; height:196px; top:143px; right:420px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_title_large.png) no-repeat 0 0; behavior:url(/web/20121201194037im_/http://images.apple.com/global/scripts/lib/ie7pngfix.htc); }
+body .gallery-hero.alt .title {width:395px; height:217px; top:180px; right:450px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_title_alt_large.png) no-repeat 0 0; }
+
+/* design */
+body .gallery-design .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_fallback_design.jpg); }
+body .gallery-design .title { width:504px; height:158px; top:88px; left:50%; margin-left:-372px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_design_title_large.png) no-repeat 0 0; behavior:url(/web/20121201194037im_/http://images.apple.com/global/scripts/lib/ie7pngfix.htc); }
+
+/* display */
+body .gallery-display .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_fallback_display.jpg); }
+body .gallery-display .title { width:331px; height:211px; top:49%; right:400px; margin-top:-105px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_display_title_large.png) no-repeat 0 0; behavior:url(/web/20121201194037im_/http://images.apple.com/global/scripts/lib/ie7pngfix.htc); }
+
+/* wireless */
+body .gallery-wireless .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_fallback_wireless.jpg); }
+body .gallery-wireless .title { width:400px; height:210px; top:153px; left:110px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_wireless_title_large.png) no-repeat 0 0; behavior:url(/web/20121201194037im_/http://images.apple.com/global/scripts/lib/ie7pngfix.htc); }
+
+/* a6 */
+body .gallery-a6 .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_fallback_a6.jpg); }
+body .gallery-a6 .title { width:298px; height:211px; top:163px; left:80px; margin-left:0; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_a6_title_medium.png) no-repeat 0 0; behavior:url(/web/20121201194037im_/http://images.apple.com/global/scripts/lib/ie7pngfix.htc); }
+
+/* camera */
+body .gallery-camera .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_fallback_camera.jpg); }
+body .gallery-camera .title { width:304px; height:211px; top:168px; left:90px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_camera_title_large.png) no-repeat 0 0; behavior:url(/web/20121201194037im_/http://images.apple.com/global/scripts/lib/ie7pngfix.htc); }
+
+/* ios */
+body .gallery-ios .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_fallback_ios6.jpg); }
+body .gallery-ios .title { width:329px; height:210px; top:126px; left:80px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_ios6_title_large.png) no-repeat 0 0; behavior:url(/web/20121201194037im_/http://images.apple.com/global/scripts/lib/ie7pngfix.htc); }
+
+
+
+/* Gallery Animations
+---------------------------*/
+body.responsive .gallery-content.animate .title { -webkit-transition-property:opacity, -webkit-transform; -webkit-transition-timing-function:ease; }
+
+/* design */
+body.responsive .gallery-design .title { opacity:0; -webkit-transform:translate3d(0, 40px, 0); }
+body.responsive .gallery-design.animate .title { -webkit-transition-duration:.3s; -webkit-transition-delay:.3s; }
+body.responsive .gallery-design.animate .title { opacity:1; -webkit-transform:translate3d(0, 0, 0); }
+
+/* display */
+body.responsive .gallery-display .title { opacity:0; -webkit-transform:translate3d(120px, 0, 0); }
+body.responsive .gallery-display.animate .title { -webkit-transition-duration:.6s, .4s; -webkit-transition-delay:.1s; }
+body.responsive .backwards .gallery-display .title { -webkit-transform:translate3d(-100px, 0, 0); }
+body.responsive .gallery-display.animate .title { opacity:1; -webkit-transform:translate3d(0, 0, 0); }
+
+/* wireless */
+body.responsive .gallery-wireless .title { opacity:0; -webkit-transform:translate3d(120px, 0, 0); }
+body.responsive .gallery-wireless.animate .title { -webkit-transition-duration:.6s, .4s; -webkit-transition-delay:.1s; }
+body.responsive .backwards .gallery-wireless .title { -webkit-transform:translate3d(-120px, 0, 0); }
+body.responsive .gallery-wireless.animate .title { opacity:1; -webkit-transform:translate3d(0, 0, 0); }
+
+/* a6 */
+body.responsive .gallery-a6 .title { opacity:0; -webkit-transform:translate3d(0, 40px, 0); }
+body.responsive .gallery-a6.animate .title { -webkit-transition-duration:.3s; -webkit-transition-delay:.3s; }
+body.responsive .gallery-a6.animate .title { opacity:1; -webkit-transform:translate3d(0, 0, 0); }
+
+/* camera */
+body.responsive .gallery-camera .title { opacity:0; -webkit-transform:translate3d(120px, 0, 0); }
+body.responsive .gallery-camera.animate .title { -webkit-transition-duration:.6s, .4s; -webkit-transition-delay:.1s; }
+body.responsive .backwards .gallery-camera .title { -webkit-transform:translate3d(-200px, 0, 0); }
+body.responsive .gallery-camera.animate .title { opacity:1; -webkit-transform:translate3d(0, 0, 0); }
+
+/* ios */
+body.responsive .gallery-ios .title { opacity:0; -webkit-transform:translate3d(60px, 0, 0); }
+body.responsive .gallery-ios.animate .title { -webkit-transition-duration:.6s, .4s; -webkit-transition-delay:.1s; }
+body.responsive .gallery-ios.animate .title { opacity:1; -webkit-transform:translate3d(0, 0, 0); }
+
+/* adjust animations for layout changes */
+@media screen and (max-height: 1000px) {
+	/* a6 */
+	body.responsive .gallery-a6 .title { opacity:0; -webkit-transform:translate3d(100px, 0, 0); }
+	body.responsive .gallery-a6.animate .title { -webkit-transition-duration:.6s, .4s; -webkit-transition-delay:.1s; }
+	body.responsive .backwards .gallery-a6 .title { -webkit-transform:translate3d(-120px, 0, 0); }
+	body.responsive .gallery-a6.animate .title { opacity:1; -webkit-transform:translate3d(0, 0, 0); }
+}
+
+/* remove animation delay for instant animation on iOS devices */
+@media only screen and (max-device-width:768px) {
+	body.responsive .gallery-design.animate .title,
+	body.responsive .gallery-display.animate .title,
+	body.responsive .gallery-wireless.animate .title,
+	body.responsive .gallery-a6.animate .title,
+	body.responsive .gallery-camera.animate .title,
+	body.responsive .gallery-ios.animate .title { -webkit-transition-delay:0s; }
+}
+
+
+
+/* Adaptive - Middle
+---------------------------*/
+@media screen and (max-height: 1000px) {
+	/* hero */
+	body.responsive .gallery-hero .image,
+	body.responsive .gallery-hero.alt .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero.jpg); }
+	body.responsive .gallery-hero .title { width:457px; height:196px; top:44%; right:420px; margin-top:-98px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_title_large.png) no-repeat 0 0; }
+	body.responsive .gallery-hero.alt .title { width:395px; height:217px; top:50%; right:450px; margin-top:-110px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_title_alt_large.png) no-repeat 0 0; }
+
+	/* design */
+	body.responsive .gallery-design .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_design.jpg); }
+	body.responsive .gallery-design .title { width:504px; height:158px; top:88px; left:50%; margin-left:-372px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_design_title_large.png) no-repeat 0 0; }
+
+	/* display */
+	body.responsive .gallery-display .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_display.jpg); }
+	body.responsive .gallery-display .title { width:331px; height:211px; top:49%; right:400px; margin-top:-105px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_display_title_large.png) no-repeat 0 0; }
+
+	/* wireless */
+	body.responsive .gallery-wireless .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_wireless.jpg); }
+	body.responsive .gallery-wireless .title { width:400px; height:210px; top:45%; left:80px; margin-top:-105px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_wireless_title_large.png) no-repeat 0 0; }
+
+	/* a6 */
+	body.responsive .gallery-a6 .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_a6.jpg); }
+	body.responsive .gallery-a6 .title { width:298px; height:211px; top:163px; left:80px; margin-left:0; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_a6_title_medium.png) no-repeat 0 0; }
+
+	/* camera */
+	body.responsive .gallery-camera .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_camera.jpg); }
+	body.responsive .gallery-camera .title { width:304px; height:211px; top:50%; left:80px; margin-top:-106px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_camera_title_large.png) no-repeat 0 0; }
+
+	/* ios */
+	body.responsive .gallery-ios .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_ios6_medium.jpg); }
+	body.responsive .gallery-ios .title { width:329px; height:210px; top:39%; left:80px; margin-top:-96px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_ios6_title_large.png) no-repeat 0 0; }
+}
+
+/* retina for middle gallery */
+@media screen and (max-height: 1000px) and (min-device-width:321px) and (-webkit-min-device-pixel-ratio:1.5) {
+	body.responsive .gallery-hero .image,
+	body.responsive .gallery-hero.alt .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_2x.jpg); }
+	body.responsive .gallery-hero .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_title_large_2x.png); background-size:457px 196px; }
+	body.responsive .gallery-hero.alt .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_title_alt_large_2x.png); background-size:395px 217px; }
+
+	body.responsive .gallery-design .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_design_2x.jpg); }
+	body.responsive .gallery-design .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_design_title_large_2x.png); background-size:504px 158px; }
+
+	body.responsive .gallery-display .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_display_2x.jpg); }
+	body.responsive .gallery-display .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_display_title_large_2x.png); background-size:331px 211px; }
+
+	body.responsive .gallery-wireless .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_wireless_2x.jpg); }
+	body.responsive .gallery-wireless .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_wireless_title_large_2x.png); background-size:400px 210px; }
+
+	body.responsive .gallery-a6 .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_a6_2x.jpg); }
+	body.responsive .gallery-a6 .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_a6_title_medium_2x.png); background-size:298px 211px; }
+
+	body.responsive .gallery-camera .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_camera_2x.jpg); }
+	body.responsive .gallery-camera .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_camera_title_large_2x.png); background-size:304px 211px; }
+
+	body.responsive .gallery-ios .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_ios6_large_2x.jpg); }
+	body.responsive .gallery-ios .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_ios6_title_large_2x.png); background-size:329px 210px; }
+}
+
+
+
+/* Adaptive - Small
+---------------------------*/
+@media screen and (max-height: 720px) {
+	/* hero */
+	body.responsive .gallery-hero .image,
+	body.responsive .gallery-hero.alt .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero.jpg); }
+	body.responsive .gallery-hero .title { width:356px; height:164px; top:50%; right:460px; margin-top:-87px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_title_small.png) no-repeat 0 0; }
+	body.responsive .gallery-hero.alt .title { width:357px; height:197px; top:49%; right:460px; margin-top:-100px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_title_alt_small.png) no-repeat 0 0; }
+
+	/* design */
+	body.responsive .gallery-design .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_design.jpg); }
+	body.responsive .gallery-design .title { width:433px; height:132px; top:68px; left:50%; margin-left:-336px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_design_title_small.png) no-repeat 0 0; }
+
+	/* display */
+	body.responsive .gallery-display .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_display.jpg); }
+	body.responsive .gallery-display .title { width:331px; height:132px; top:50%; right:470px; margin-top:-67px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_display_title_small.png) no-repeat 0 0; }
+
+	/* wireless */
+	body.responsive .gallery-wireless .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_wireless.jpg); }
+	body.responsive .gallery-wireless .title { width:345px; height:178px; top:50%; left:90px; margin-top:-100px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_wireless_title_small.png) no-repeat 0 0; }
+
+	/* a6 */
+	body.responsive .gallery-a6 .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_a6.jpg); }
+	body.responsive .gallery-a6 .title { width:272px; height:178px; top:135px; left:90px; margin-left:0; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_a6_title_small.png) no-repeat 0 0; }
+
+	/* camera */
+	body.responsive .gallery-camera .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_camera.jpg); }
+	body.responsive .gallery-camera .title { width:261px; height:177px; top:50%; left:90px; margin-top:-89px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_camera_title_small.png) no-repeat 0 0; }
+
+	/* ios */
+	body.responsive .gallery-ios .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_ios6_small.jpg); }
+	body.responsive .gallery-ios .title { width:283px; height:177px; top:50%; left:90px; margin-top:-88px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_ios6_title_small.png) no-repeat 0 0; }
+}
+
+/* retina for small gallery */
+@media screen and (max-height: 1000px) and (min-device-width:321px) and (-webkit-min-device-pixel-ratio:1.5) {
+	body.responsive .gallery-hero .image,
+	body.responsive .gallery-hero.alt .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_2x.jpg); }
+	body.responsive .gallery-hero .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_title_small_2x.png); background-size:356px 164px; }
+	body.responsive .gallery-hero.alt .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_title_alt_small_2x.png); background-size:357px 197px; }
+
+	body.responsive .gallery-design .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_design_2x.jpg); }
+	body.responsive .gallery-design .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_design_title_small_2x.png); background-size:433px 132px; }
+
+	body.responsive .gallery-display .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_display_2x.jpg); }
+	body.responsive .gallery-display .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_display_title_small_2x.png); background-size:331px 123px; }
+
+	body.responsive .gallery-wireless .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_wireless_2x.jpg); }
+	body.responsive .gallery-wireless .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_wireless_title_small_2x.png); background-size:345px 178px; }
+
+	body.responsive .gallery-a6 .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_a6_2x.jpg); }
+	body.responsive .gallery-a6 .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_a6_title_small_2x.png); background-size:272px 178px; }
+
+	body.responsive .gallery-camera .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_camera_2x.jpg); }
+	body.responsive .gallery-camera .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_camera_title_small_2x.png); background-size:261px 177px; }
+
+	body.responsive .gallery-ios .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_ios6_small_2x.jpg); }
+	body.responsive .gallery-ios .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_ios6_title_large_2x.png); background-size:283px 177px; }
+}
+
+
+
+/* Adaptive - Tall
+---------------------------*/
+@media screen and (min-height: 1001px) {
+	/* hero */
+	body.responsive .gallery-hero .image,
+	body.responsive .gallery-hero.alt .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero.jpg); }
+	body.responsive .gallery-hero .title { width:457px; height:196px; top:49%; right:390px; margin-top:-98px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_title_large.png) no-repeat 0 0; }
+	body.responsive .gallery-hero.alt .title { width:395px; height:217px; top:50%; right:410px; margin-top:-110px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_title_alt_large.png) no-repeat 0 0; }
+
+	/* design */
+	body.responsive .gallery-design .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_design.jpg); }
+	body.responsive .gallery-design .title { width:504px; height:158px; top:173px; left:50%; margin-left:-372px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_design_title_large.png) no-repeat 0 0; }
+
+	/* display */
+	body.responsive .gallery-display .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_display.jpg); }
+	body.responsive .gallery-display .title { width:331px; height:211px; top:50%; right:400px; margin-top:-105px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_display_title_large.png) no-repeat 0 0; }
+
+	/* wireless */
+	body.responsive .gallery-wireless .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_wireless.jpg); }
+	body.responsive .gallery-wireless .title { width:400px; height:210px; top:49%; left:70px; margin-top:-105px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_wireless_title_large.png) no-repeat 0 0; }
+
+	/* a6 */
+	body.responsive .gallery-a6 .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_a6.jpg); }
+	body.responsive .gallery-a6 .title { width:481px; height:158px; top:66px; left:50%; margin-left:-360px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_a6_title_large.png) no-repeat 0 0; }
+
+	/* camera */
+	body.responsive .gallery-camera .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_camera.jpg); }
+	body.responsive .gallery-camera .title { width:304px; height:211px; top:50%; left:70px; margin-top:-106px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_camera_title_large.png) no-repeat 0 0; }
+
+	/* ios */
+	body.responsive .gallery-ios .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_ios6_large.jpg); }
+	body.responsive .gallery-ios .title { width:329px; height:210px; top:50%; left:70px; margin-top:-96px; background:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_ios6_title_large.png) no-repeat 0 0; }
+}
+
+/* retina for tall gallery */
+@media screen and (min-height: 1001px) and (min-device-width:321px) and (-webkit-min-device-pixel-ratio:1.5) {
+	body.responsive .gallery-hero .image,
+	body.responsive .gallery-hero.alt .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_2x.jpg); }
+	body.responsive .gallery-hero .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_title_large_2x.png); background-size:457px 196px; }
+	body.responsive .gallery-hero.alt .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_hero_title_alt_large_2x.png); background-size:395px 217px; }
+
+	body.responsive .gallery-design .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_design_2x.jpg); }
+	body.responsive .gallery-design .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_design_title_large_2x.png); background-size:504px 158px; }
+
+	body.responsive .gallery-display .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_display_2x.jpg); }
+	body.responsive .gallery-display .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_display_title_large_2x.png); background-size:331px 211px; }
+
+	body.responsive .gallery-wireless .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_wireless_2x.jpg); }
+	body.responsive .gallery-wireless .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_wireless_title_large_2x.png); background-size:400px 210px; }
+
+	body.responsive .gallery-a6 .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_a6_2x.jpg); }
+	body.responsive .gallery-a6 .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_a6_title_large_2x.png); background-size:481px 158px; }
+
+	body.responsive .gallery-camera .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_camera_2x.jpg); }
+	body.responsive .gallery-camera .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_camera_title_large_2x.png); background-size:304px 211px; }
+
+	body.responsive .gallery-ios .image { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_ios6_large_2x.jpg); }
+	body.responsive .gallery-ios .title { background-image:url(http://web.archive.org/web/20121201194037im_/http://images.apple.com/iphone/home/images/gallery_ios6_title_large_2x.png); background-size:329px 210px; }
+}
+
+
+/*
+     FILE ARCHIVED ON 19:40:37 Dec 01, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:31:56 Apr 07, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.454
+  exclusion.robots: 0.017
+  exclusion.robots.policy: 0.007
+  esindex: 0.01
+  cdx.remote: 84.74
+  LoadShardBlock: 43.211 (3)
+  PetaboxLoader3.datanode: 108.247 (5)
+  load_resource: 200.795 (2)
+  PetaboxLoader3.resolve: 106.023 (2)
+*/

@@ -1,0 +1,48 @@
+body { background:url(http://web.archive.org/web/20121130094009im_/https://www.apple.com/global/elements/quicktime/loading.gif) no-repeat 50% 150px; }
+body.loaded { background:transparent; }
+
+#showcase .content,
+#promobar,
+#itunes,
+#globalfooter { opacity:0; -webkit-transition:opacity .5s; -moz-transition:opacity .5s; }
+
+.loaded #showcase .content,
+.loaded #promobar,
+.loaded #itunes,
+.loaded #globalfooter { opacity:1; }
+
+.revealed #showcase .content { position:static; }
+
+#showcase .content        { -webkit-transition-delay: .8s; -moz-transition-delay: .8s; }
+#showcase .content.first  { -webkit-transition-delay: .9s; -moz-transition-delay: .9s; }
+#showcase .content.second { -webkit-transition-delay:1s  ; -moz-transition-delay:1s  ; }
+#showcase .content.third  { -webkit-transition-delay:1.1s; -moz-transition-delay:1.1s; }
+#promobar { -webkit-transition-delay:1.6s; -moz-transition-delay:1.6s; }
+#itunes { -webkit-transition-delay:1.7s; -moz-transition-delay:1.7s; }
+#globalfooter { -webkit-transition-delay:1.8s; -moz-transition-delay:1.7s; }
+
+.canceled #showcase .content,
+.canceled #promobar,
+.canceled #itunes,
+.canceled #globalfooter { -webkit-transition:none; -moz-transition:none; }
+
+/*
+     FILE ARCHIVED ON 09:40:09 Nov 30, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:32:59 Apr 07, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.592
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.01
+  esindex: 0.012
+  cdx.remote: 29.467
+  LoadShardBlock: 65.393 (3)
+  PetaboxLoader3.datanode: 109.774 (5)
+  load_resource: 210.687 (2)
+  PetaboxLoader3.resolve: 93.494 (2)
+*/

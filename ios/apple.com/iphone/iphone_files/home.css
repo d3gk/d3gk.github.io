@@ -1,0 +1,292 @@
+/* Content
+---------------------------*/
+body#overview #main #content { width:980px; margin:0; }
+body#overview .flushleft { margin-left:-70px; }
+body#overview .flushright { margin-right:-70px; }
+body#overview .flushpad { overflow:hidden; padding-left:70px; padding-right:70px; margin-left:-70px; margin-right:-70px; }
+body#overview .row { width:980px; padding:0; border-top:1px solid #ced0d5; }
+body#overview .row img.right,
+body#overview .row img.left { margin-bottom:0; display:block; position:relative; z-index:1; }
+
+body#overview .bucket-copy { display:block; text-align:center; *clear:both; }
+body#overview .bucket-copy h1 { margin-bottom:5px; }
+body#overview .bucket-copy p { font-size:1.125em; line-height:1.55em; color:#8a8d99; margin-bottom:8px; }
+body#overview .bucket-copy span.more { font-size:1.125em; line-height:1.55em; }
+
+body#overview #buystrip { margin: 0 10px 10px; }
+
+
+/* dividers */
+body#overview .gradient-down { background:url(http://web.archive.org/web/20121201194042im_/http://images.apple.com/v/iphone/home/d/images/overview_divider_down.jpg) no-repeat center top; }
+body#overview .gradient-up { background:url(http://web.archive.org/web/20121201194042im_/http://images.apple.com/v/iphone/home/d/images/overview_divider_up.jpg) no-repeat center bottom; }
+
+/* design */
+body#overview #videos img.center { margin-top:22px; margin-bottom:22px; }
+
+/* design */
+body#overview #design .bucket-copy { padding:90px 490px 0 10px; }
+body#overview #design img.right { margin-top:-518px; position:relative; z-index:1; }
+
+/* display */
+body#overview #display .bucket-copy { padding:90px 16px 0 504px; }
+body#overview #display img.left { margin-top:-360px; margin-left:32px; position:relative; z-index:1; }
+
+/* wireless */
+body#overview #wireless .bucket-copy { padding:105px 494px 0 14px; }
+body#overview #wireless img.right { margin-top:-260px; position:relative; z-index:1; }
+
+/* a6 */
+body#overview #a6 .bucket-copy { padding:80px 16px 0 510px; }
+body#overview #a6 img.left { margin-top:-245px; margin-bottom:10px; margin-left:-10px; position:relative; z-index:1; }
+
+
+
+/* Video Thumbs
+---------------------------*/
+body#overview .videos { text-align:center; padding-top:20px; padding-bottom:5px; }
+body#overview .videos li { display:inline-block; -moz-display:inline-stack; *display:inline; *zoom:1; margin:0 3px; }
+body#overview .videos .video-thumb i::after { -webkit-box-shadow:none; -moz-box-shadow:none; box-shadow:none; }
+body#overview .videos .video-thumb .link { font-style:normal; color:#fff; text-shadow:0 1px 4px rgba(0,0,0,.8); -moz-text-shadow:1px 1px 5px rgba(0,0,0,.5); }
+body#overview .videos .video-thumb .link.darklink { *color:#333; }
+body#overview .videos .video-thumb:hover .link { text-decoration:none; }
+body#overview .videos .video-thumb .link { position:absolute; left:0; bottom:6px; _left:-370px; }
+body#overview .videos .video-thumb i .play { top:52%; }
+
+
+
+/* Video Gallery
+---------------------------*/
+/* video gallery */
+body#overview #gallery-hero-videos { position:relative; z-index:1; }
+body#overview #gallery-hero-videos .gallery-video { position:absolute; z-index:1; width:848px; height:480px; padding:50px 40px 0; margin-top:-290px; margin-left:-464px; top:50%; left:50%; }
+body#overview #gallery-hero-videos .moviePanel { width:848px; height:480px; border:1px solid #dcdcdc; }
+body#overview #gallery-hero-videos .gallery-hero-videos-default { width:0; height:0; }
+
+/* video close button */
+body#overview #gallery-hero-videos .close { position:absolute; top:6px; left:40px; width:29px; height:29px; text-indent:-9999px; overflow:hidden; background:url(http://web.archive.org/web/20121201194042im_/http://images.apple.com/v/iphone/home/d/images/button_close.png) no-repeat 0 0; z-index:20051; _behavior:url(/web/20121201194042im_/http://images.apple.com/global/scripts/lib/iepngfix.htc); }
+
+@media screen and (max-height: 720px) {
+	body#overview #gallery-hero-videos .gallery-video { padding-top:0; margin-top:-240px; }
+	body#overview #gallery-hero-videos .close { top:0px; left:0px; }
+}
+
+
+/* Hero Gallery
+---------------------------*/
+/* slide gallery */
+body#overview .gallery { width:1120px; overflow:hidden; -webkit-user-select:none; -webkit-transform:translateZ(0); position:relative; z-index:1001; }
+body#overview .gallery.show-overflow { overflow:visible; }
+body#overview .gallery .gallery-view { width:14400px; -webkit-transform:translateZ(0); position:relative; z-index:1001; }
+body#overview .gallery .gallery-content { margin-right:240px; width:1360px; margin:0; float:left; display:inline; -webkit-transform:translateZ(0); position:relative; z-index:1001; }
+body#overview .gallery,
+body#overview .gallery .gallery-view,
+body#overview .gallery .gallery-content { background-color:#fff; }
+
+@media only screen and (max-device-width:768px) {
+	body#overview .gallery,
+	body#overview .gallery .gallery-view,
+	body#overview .gallery .gallery-content { background-color:transparent; }
+}
+
+body#overview .content:after,
+body#overview .gallery:after,
+body#overview .gallery .gallery-view:after,
+body#overview .gallery .gallery-content:after { content:none; display:none; }
+
+/* paddle arrow nav */
+.paddle-nav li { width:100%; position:absolute; top:0; left:0; z-index:1003; _display:none; }
+.paddle-nav li .arrow { position:absolute; display:block; top:0; height:600px; width:140px; padding:0 18px; -moz-opacity:0; opacity:0; filter:alpha(opacity=0); outline:none; z-index:1; cursor:pointer; *background-image:url(http://web.archive.org/web/20121201194042im_/http://images.apple.com/global/elements/blank.gif);
+	-webkit-transition:.25s opacity ease-out; -moz-transition:.25s opacity ease-out; transition:.25s opacity ease-out;
+}
+.paddle-nav li .arrow:hover { -moz-opacity:1; opacity:1; filter:alpha(opacity=100); }
+.paddle-nav li .arrow.disabled { display:none; }
+.paddle-nav li .arrow b { display:block; width:40px; height:80px; margin-top:260px; text-indent:-9999px; overflow:hidden; behavior:url(/web/20121201194042im_/http://images.apple.com/global/scripts/lib/ie7pngfix.htc); }
+
+.paddle-nav li .arrow.prev { left:0; }
+.paddle-nav li .arrow.prev b { float:left; background:url(http://web.archive.org/web/20121201194042im_/http://images.apple.com/global/elements/arrows/paddle_prev.png) no-repeat 0 0; }
+
+.paddle-nav li .arrow.next { right:0; }
+.paddle-nav li .arrow.next b { float:right; background:url(http://web.archive.org/web/20121201194042im_/http://images.apple.com/global/elements/arrows/paddle_next.png) no-repeat 100% 0; }
+
+.paddle-hide { display:none; }
+
+@media only screen and (max-device-width:768px) {
+	.paddle-nav { display:none; } /* don't show the paddles on iOS, swipe instead */
+}
+
+/* dot nav */
+body#overview .dot-nav { position:absolute; bottom:12px; z-index:1200; _position:relative; _margin-left:440px; _bottom:30px; _width:200px; }
+body#overview .dot-nav:nth-child(1n) a { background:rgba(101,101,102,.2);
+	-webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, .35);
+	   -moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, .35);
+	        box-shadow:inset 0 1px 2px rgba(0, 0, 0, .35);
+}
+body#overview .dot-nav:nth-child(1n) a.active { background:#08c;
+	background:-webkit-gradient(linear,lefttop,leftbottom,color-stop(0%,rgb(126,198,234)),color-stop(24%,rgb(70,179,234)),color-stop(100%,rgb(3,135,201)));
+	background:-webkit-linear-gradient(top,rgb(126,198,234)0%,rgb(70,179,234)45%,rgb(3,135,201)100%);
+	background:   -moz-linear-gradient(top,rgb(126,198,234)0%,rgb(70,179,234)45%,rgb(3,135,201)100%);
+	background:        linear-gradient(top,rgb(126,198,234)0%,rgb(70,179,234)45%,rgb(3,135,201)100%);
+	-webkit-box-shadow:inset 0 1px 0 rgba(0, 0, 0, .25);
+	   -moz-box-shadow:inset 0 1px 0 rgba(0, 0, 0, .25);
+	        box-shadow:inset 0 1px 0 rgba(0, 0, 0, .25);
+}
+
+/* position titles over images */
+body .image { position:absolute; z-index:1; background-repeat:no-repeat; }
+body .title { position:absolute; z-index:2; text-indent:-1000em; overflow:hidden; -webkit-transform:translateZ(0); }
+
+@media only screen and (max-device-width:768px) {
+	body .image { -webkit-transform:translateZ(0); }
+}
+
+
+/* Gallery - Fallback
+---------------------------*/
+body .gallery,
+body .gallery .gallery-view,
+body .gallery .gallery-content { height:600px; }
+
+/* hero */
+body .gallery-hero .image,
+body .gallery-hero .alt .image { height:577px; width:206px; top:12px; left:220px; background-position:100% 0; behavior:url(/web/20121201194042im_/http://images.apple.com/global/scripts/lib/ie7pngfix.htc); }
+
+/* design */
+body .gallery-design .image { width:1419px; height:150px; top:330px; left:-145px; background-position:0 0; }
+
+/* display */
+body .gallery-display .image { width:336px; height:603px; top:18px; left:260px; background-position:100% 0; }
+
+/* wireless */
+body .gallery-wireless .image { width:773px; height:785px; top:0px; right:110px; background-position:0 -73px; }
+
+/* a6 */
+body .gallery-a6 .image { width:781px; height:450px; top:100px; right:220px; margin-right:0; background-position:50% 0; }
+
+/* camera */
+body .gallery-camera .image { width:898px; height:530px; bottom:0px; right:0px; background-position:0 100%; }
+
+/* ios */
+body .gallery-ios .image { width:880px; height:600px; top:0px; right:40px; background-position:0 0; }
+
+
+
+/* Adaptive - Middle
+---------------------------*/
+@media screen and (max-height: 1000px) {
+	body#overview.responsive .gallery,
+	body#overview.responsive .gallery .gallery-view,
+	body#overview.responsive .gallery .gallery-content { height:600px; }
+
+	/* hero */
+	body.responsive .gallery-hero .image,
+	body.responsive .gallery-hero .alt .image { height:564px; width:280px; top:19px; left:140px; background-position:100% 0; background-size:auto 100%; -webkit-background-size:auto 100%; }
+
+	/* design */
+	body.responsive .gallery-design .image { width:1419px; height:150px; top:330px; left:-145px; background-position:0 0; background-size:1419px 150px; -webkit-background-size:1419px 150px; }
+
+	/* display */
+	body.responsive .gallery-display .image { width:575px; height:696px; top:18px; left:100px; background-position:100% 0; background-size:auto 100%; -webkit-background-size:auto 100%; }
+
+	/* wireless */
+	body.responsive .gallery-wireless .image { width:773px; height:730px; top:0px; right:105px; background-position:0 -73px; background-size:auto 102%; -webkit-background-size:auto 102%; }
+
+	/* a6 */
+	body.responsive .gallery-a6 .image { width:781px; height:450px; top:98px; right:220px; margin-right:0; background-position:50% 0; background-size:auto 100%; -webkit-background-size:auto 100%; }
+
+	/* camera */
+	body.responsive .gallery-camera .image { width:840px; height:510px; bottom:0px; right:50px; background-position:0 0; background-size:100% auto; -webkit-background-size:100% auto; }
+
+	/* ios */
+	body.responsive .gallery-ios .image { width:880px; height:600px; top:0px; right:40px; background-position:0 0; background-size:auto 100%; -webkit-background-size:auto 100%; }
+}
+
+
+
+/* Adaptive - Small
+---------------------------*/
+@media screen and (max-height: 720px) {
+	body#overview.responsive .gallery,
+	body#overview.responsive .gallery .gallery-view,
+	body#overview.responsive .gallery .gallery-content { height:502px; }
+
+	body.responsive .paddle-nav li .arrow { height:502px; }
+	body.responsive .paddle-nav li .arrow b { margin-top:211px; }
+
+	/* hero */
+	body.responsive .gallery-hero .image,
+	body.responsive .gallery-hero .alt .image { height:614px; width:280px; top:29px; left:160px; background-position:100% 0; background-size:auto 100%; -webkit-background-size:auto 100%; }
+
+	/* design */
+	body.responsive .gallery-design .image { width:1419px; height:150px; top:260px; left:-145px; background-position:0 0; background-size:1419px 150px; -webkit-background-size:1419px 150px; }
+
+	/* display */
+	body.responsive .gallery-display .image { width:575px; height:580px; top:18px; left:10px; background-position:100% 0; background-size:auto 100%; -webkit-background-size:auto 100%; }
+
+	/* wireless */
+	body.responsive .gallery-wireless .image { width:773px; height:680px; top:0px; right:105px; background-position:0 -83px; background-size:auto 100%; -webkit-background-size:auto 100%; }
+
+	/* a6 */
+	body.responsive .gallery-a6 .image { width:781px; height:420px; top:54px; right:250px; margin-right:0; background-position:50% 0; background-size:auto 100%; -webkit-background-size:auto 100%; }
+
+	/* camera */
+	body.responsive .gallery-camera .image { width:800px; height:450px; bottom:0px; right:80px; background-position:0 0; background-size:100% auto; -webkit-background-size:100% auto; }
+
+	/* ios */
+	body.responsive .gallery-ios .image { width:880px; height:502px; top:0px; right:40px; background-position:0 0; background-size:auto 100%; -webkit-background-size:auto 100%; }
+}
+
+
+
+/* Adaptive - Tall
+---------------------------*/
+@media screen and (min-height: 1001px) {
+	body#overview.responsive .gallery,
+	body#overview.responsive .gallery .gallery-view,
+	body#overview.responsive .gallery .gallery-content { height:868px; }
+
+	body.responsive .paddle-nav li .arrow { height:868px; }
+	body.responsive .paddle-nav li .arrow b { margin-top:394px; }
+
+	/* hero */
+	body.responsive .gallery-hero .image,
+	body.responsive .gallery-hero .alt .image  { height:786px; width:280px; top:38px; left:170px; background-position:100% 0; background-size:auto 100%; -webkit-background-size:auto 100%; }
+
+	/* design */
+	body.responsive .gallery-design .image { width:1419px; height:150px; top:505px; left:-145px; background-position:0 0; background-size:1419px 150px; -webkit-background-size:1419px 150px; }
+
+	/* display */
+	body.responsive .gallery-display .image { width:575px; height:770px; top:58px; left:100px; background-position:100% 100%; background-size:auto 100%; -webkit-background-size:auto 100%; }
+
+	/* wireless */
+	body.responsive .gallery-wireless .image { width:773px; height:785px; top:38px; right:90px; background-position:0 50%; background-size:auto 100%; -webkit-background-size:auto 100%; }
+
+	/* a6 */
+	body.responsive .gallery-a6 .image { width:781px; height:526px; top:283px; right:50%; margin-right:-270px; background-position:50% 0; background-size:auto 100%; -webkit-background-size:auto 100%; }
+
+	/* camera */
+	body.responsive .gallery-camera .image { width:885px; height:819px; bottom:0px; right:0px; background-position:0 0; background-size:auto 100%; -webkit-background-size:auto 100%; }
+
+	/* ios */
+	body.responsive .gallery-ios .image { width:880px; height:863px; top:0px; right:57px; background-position:0 0; background-size:auto 100%; -webkit-background-size:auto 100%; }
+}
+
+/*
+     FILE ARCHIVED ON 19:40:42 Dec 01, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:31:56 Apr 07, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.578
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.014
+  esindex: 0.012
+  cdx.remote: 8.902
+  LoadShardBlock: 170.353 (3)
+  PetaboxLoader3.datanode: 280.306 (5)
+  load_resource: 316.481 (2)
+  PetaboxLoader3.resolve: 187.977 (2)
+*/

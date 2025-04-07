@@ -1,0 +1,54 @@
+html, body { background-color:#f5f6f7; }
+#main { width:980px; margin:0 auto; *width:982px; }
+
+/* links */
+a.block { display:block; color:inherit; text-decoration:none; }
+a.block * { cursor:pointer; }
+a.block span.link,
+a.block span.more { color:#08c; }
+a.block span.more { white-space:nowrap; text-align:left; padding-right:10px; background:url(http://web.archive.org/web/20121130094538im_/https://www.apple.com/global/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%; }
+a.block:hover span.link,
+a.block:hover span.more { text-decoration:underline; }
+
+a.close { color:#888; display:block; float:left; padding-left:18px; background:url(http://web.archive.org/web/20121130094538im_/https://www.apple.com/global/elements/buttons/close.png) no-repeat 0 0; text-decoration:none; text-transform:lowercase; }
+a.close:hover { color:#08c; background-position:0 -50px; }
+a.close.right { float:right; padding-right:18px; padding-left:0; background-position:100% 0; text-transform:none; }
+a.close.right:hover { background-position:100% -50px; }
+a.close.dark { color:#fff; background-image:url(http://web.archive.org/web/20121130094538im_/https://www.apple.com/global/elements/buttons/close_dark_bg.png); }
+a.close.dark:hover { color:#00a2ff; background-image:url(http://web.archive.org/web/20121130094538im_/https://www.apple.com/global/elements/buttons/close_dark_bg.png); }
+
+/* images */
+.right { float:right; }
+.left { float:left; }
+
+
+/* footers
+------------------------*/
+.sosumi small { font-size:1em; }
+
+#main .sosumi { padding:18px 20px 0; }
+
+#globalfooter { margin-top:12px; *width:980px; }
+#globalfooter p.sosumi { text-align:right; margin:-26px 0 0; *margin-top:-17px; }
+
+
+/*
+     FILE ARCHIVED ON 09:45:38 Nov 30, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:34:38 Apr 07, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.46
+  exclusion.robots: 0.016
+  exclusion.robots.policy: 0.007
+  esindex: 0.009
+  cdx.remote: 7.227
+  LoadShardBlock: 103.111 (3)
+  PetaboxLoader3.datanode: 105.396 (5)
+  load_resource: 212.333 (2)
+  PetaboxLoader3.resolve: 146.288 (2)
+*/

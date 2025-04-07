@@ -1,0 +1,42 @@
+/* buy strip
+------------------------*/
+#buystrip { margin:0 0 20px; padding:25px 0 0; border-top:1px solid #d5d5d5; font-size:14px; line-height:1.4em; word-spacing:-1px; zoom:1; }
+
+#buystrip .grid4col { margin:0 auto; width:980px; }
+#buystrip .grid4col .column { position:relative; margin:0; padding-bottom:25px; width:244px; min-height:200px; _height:200px; text-align:center; border-left:1px solid #e5e5e5; }
+#buystrip .grid4col .column h2 { margin-bottom:18px; }
+#buystrip .grid4col .column h2 img { display:block; margin:5px auto 1px; }
+#buystrip .grid4col .column p { display:block; margin:0 auto; width:190px; font-size:0.8571em; line-height:1.4166em; color:#666; }
+#buystrip .grid4col .column.third p { width:204px; }
+#buystrip .grid4col .column a:hover { text-decoration:none; }
+#buystrip .grid4col .column a:hover .more { text-decoration:underline; }
+#buystrip .grid4col .column.first { padding-bottom:12px; border:none; }
+#buystrip .grid4col .column.first li { display:block; margin:-4px 0 0; }
+#buystrip .grid4col .column.first h2 { margin-top:9px; margin-bottom:0; }
+#buystrip .grid4col .column.first h2 img { margin-bottom:0; }
+#buystrip .grid4col .column.first p { margin-top:2px; margin-bottom:9px; }
+#buystrip .grid4col .column .bottom-align { position:absolute; width:100%; bottom:5px; left:0; text-align:center; font-size:1.1429em; line-height:1.375em; }
+
+#buystrip .app-link { margin:5px 45px 0; padding:18px 0 20px; font-size:0.7857em; text-align:center; border-top:1px solid #e5e5e5; }
+#buystrip .app-link img { *position:relative; *z-index:1; margin:0 6px -8px 0; }
+#buystrip .app-link a.inline-block { display:inline-block; color:#333; cursor:pointer; }
+/*
+     FILE ARCHIVED ON 09:45:32 Nov 30, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:34:38 Apr 07, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.426
+  exclusion.robots: 0.012
+  exclusion.robots.policy: 0.006
+  esindex: 0.009
+  cdx.remote: 13.04
+  LoadShardBlock: 366.078 (3)
+  PetaboxLoader3.datanode: 132.597 (5)
+  PetaboxLoader3.resolve: 362.922 (4)
+  load_resource: 200.919 (2)
+*/
