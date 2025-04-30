@@ -21,24 +21,24 @@ function browser_check () {
       v19 = ua.match(/ OS 19_/i),
       redirectTo = 'https://d3gk.github.io';
 
-	if      (ios && v2) { redirectTo = '/ios/classic/'; }
-	else if (ios && v3) { redirectTo = '/ios/classic/'; } 
-	else if (ios && v4) { redirectTo = '/ios/classic/'; } 
-	else if (ios && v5) { redirectTo = '/ios/classic/'; } 
-	else if (ios && v6) { redirectTo = '/ios/classic/'; }         
-	else if (ios && v7) { redirectTo = '/ios/modern/'; }          
-	else if (ios && v8) { redirectTo = '/ios/modern/'; }          
-	else if (ios && v9) { redirectTo = '/ios/modern/'; }          
-	else if (ios && v10) { redirectTo = '/ios/modern/'; }         
-	else if (ios && v11) { redirectTo = '/ios/modern/'; }         
-	else if (ios && v12) { redirectTo = '/ios/modern/'; }         
-	else if (ios && v13) { redirectTo = '/ios/modern/'; }         
-	else if (ios && v14) { redirectTo = '/ios/modern/'; }         
-	else if (ios && v15) { redirectTo = '/ios/modern/'; }         
-	else if (ios && v16) { redirectTo = '/ios/modern/'; }         
-	else if (ios && v17) { redirectTo = '/ios/modern/'; }         
-	else if (ios && v18) { redirectTo = '/ios/modern/'; }         
-	else if (ios && v19) { redirectTo = '/ios/modern/'; }     
+	if      (ios && v2) { redirectTo = '/lpnu/index6.html'; }
+	else if (ios && v3) { redirectTo = '/lpnu/index6.html'; } 
+	else if (ios && v4) { redirectTo = '/lpnu/index6.html'; } 
+	else if (ios && v5) { redirectTo = '/lpnu/index6.html'; } 
+	else if (ios && v6) { redirectTo = '/lpnu/index6.html'; }         
+	else if (ios && v7) { redirectTo = '/lpnu/index7.html'; }          
+	else if (ios && v8) { redirectTo = '/lpnu/index7.html'; }          
+	else if (ios && v9) { redirectTo = '/lpnu/index7.html'; }          
+	else if (ios && v10) { redirectTo = '/lpnu/index7.html'; }         
+	else if (ios && v11) { redirectTo = '/lpnu/index7.html'; }         
+	else if (ios && v12) { redirectTo = '/lpnu/index7.html'; }         
+	else if (ios && v13) { redirectTo = '/lpnu/index7.html'; }         
+	else if (ios && v14) { redirectTo = '/lpnu/index7.html'; }         
+	else if (ios && v15) { redirectTo = '/lpnu/index7.html'; }         
+	else if (ios && v16) { redirectTo = '/lpnu/index7.html'; }         
+	else if (ios && v17) { redirectTo = '/lpnu/index7.html'; }         
+	else if (ios && v18) { redirectTo = '/lpnu/index7.html'; }         
+	else if (ios && v19) { redirectTo = '/lpnu/index7.html'; }     
 	else { redirectTo = '/index.html'; }     
 
 	if (location.href.indexOf(redirectTo) == -1) {
