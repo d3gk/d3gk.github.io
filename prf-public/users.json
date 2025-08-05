@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "username": "d3gk",
+      "display_name": "Daniel",
+      "avatar": "none",
+      "uniqueid": "00000247",
+      "password_hash": "b55c8792d1ce458e279308835f8a97b580263503e76e1998e279703e35ad0c2e"
+    },
+    {
+      "username": "test",
+      "display_name": "-",
+      "avatar": "none",
+      "uniqueid": "00010002",
+      "password_hash": "b55c8792d1ce458e279308835f8a97b580263503e76e1998e279703e35ad0c2e"
+    }
+  ]
+}
+
