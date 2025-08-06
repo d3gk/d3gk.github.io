@@ -4,15 +4,15 @@
     "minimalversion": 0,
     "currentinfo": {
         "name": "Update 2.0 Alpha",
-        "version": "2.0a0m",
-        "build": 250804,
+        "version": "2.0a1m",
+        "build": 250806,
         "description": "Update for system testing",
         "download_url": "https://14h-software.github.io/index.html"
     },
     "currentinfo_beta": {
         "name": "Update 2.0 Alpha (Nightly Build)",
-        "version": "2.0a0m",
-        "build": 250804,
+        "version": "2.0a1m",
+        "build": 250806,
         "description": "Beta-branch Update for system testing, non-functional",
         "download_url": "https://14h-software.github.io/index.html"
     }
