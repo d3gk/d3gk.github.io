@@ -1,18 +1,18 @@
 {
-    "currentversionid": 250806,
-    "currentversionid_beta": 250806,
+    "currentversionid": 250930,
+    "currentversionid_beta": 250930,
     "minimalversion": 0,
     "currentinfo": {
         "name": "Update 2.0 Alpha",
-        "version": "2.0a1",
-        "build": 250806,
+        "version": "2.0",
+        "build": 250930,
         "description": "Update for system testing",
         "download_url": "https://14h-software.github.io/index.html"
     },
     "currentinfo_beta": {
         "name": "Update 2.0 Alpha (Nightly Build)",
-        "version": "2.0a1",
-        "build": 250806,
+        "version": "2.0",
+        "build": 250930,
         "description": "Beta-branch Update for system testing, non-functional",
         "download_url": "https://14h-software.github.io/index.html"
     }
