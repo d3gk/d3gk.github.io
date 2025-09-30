@@ -7,13 +7,13 @@
         "version": "2.0",
         "build": 250930,
         "description": "Update for system testing",
-        "download_url": "https://14h-software.github.io/index.html"
+        "download_url": "https://d3gk.github.io/profiler/beta/25A0930.zip"
     },
     "currentinfo_beta": {
         "name": "Update 2.0 Alpha (Nightly Build)",
         "version": "2.0",
         "build": 250930,
         "description": "Beta-branch Update for system testing, non-functional",
-        "download_url": "https://14h-software.github.io/index.html"
+        "download_url": "https://d3gk.github.io/profiler/beta/25A0930.zip"
     }
 }
