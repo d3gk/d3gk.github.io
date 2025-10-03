@@ -1,0 +1,72 @@
+[
+  {
+    "serialNumber": "000000",
+    "model": "D1-P0 Distortion",
+    "boardRevision": "D28R1V1",
+    "variant": "Testing / Basic",
+    "dateOfProduction": "2025-07-09",
+    "state": "In testing",
+    "isCustomShop": "No",
+    "prototypeStatus": "Prototype"
+  },
+  {
+    "serialNumber": "000001",
+    "model": "N/A Reverb + Chorus",
+    "boardRevision": "R36R1V1 / C41R1V1",
+    "variant": "N/A",
+    "dateOfProduction": "N/A",
+    "state": "In production",
+    "isCustomShop": "Yes",
+    "prototypeStatus": "N/A"
+  },
+  {
+    "serialNumber": "000002",
+    "model": "D1-P0 Distortion",
+    "boardRevision": "D28R1V1",
+    "variant": "Basic / Black",
+    "dateOfProduction": "N/A",
+    "state": "In production",
+    "isCustomShop": "No",
+    "prototypeStatus": "Prototype"
+  },
+  {
+    "serialNumber": "000003",
+    "model": "D1-P0 Distortion",
+    "boardRevision": "D28R1V1",
+    "variant": "Basic / Black",
+    "dateOfProduction": "N/A",
+    "state": "In production",
+    "isCustomShop": "No",
+    "prototypeStatus": "Prototype"
+  },
+  {
+    "serialNumber": "000004",
+    "model": "D1-P1 Distortion",
+    "boardRevision": "D30R1V1",
+    "variant": "Basic / Black",
+    "dateOfProduction": "N/A",
+    "state": "Planned",
+    "isCustomShop": "No",
+    "prototypeStatus": "Prototype"
+  },
+  {
+    "serialNumber": "000005",
+    "model": "D1-P1 Distortion",
+    "boardRevision": "D30R1V1",
+    "variant": "Basic / White",
+    "dateOfProduction": "N/A",
+    "state": "Planned",
+    "isCustomShop": "No",
+    "prototypeStatus": "Prototype"
+  },
+  {
+    "serialNumber": "000006",
+    "model": "D1-P1 Distortion",
+    "boardRevision": "D30R1V1",
+    "variant": "Basic / Red",
+    "dateOfProduction": "N/A",
+    "state": "Planned",
+    "isCustomShop": "No",
+    "prototypeStatus": "Prototype"
+  }
+]
