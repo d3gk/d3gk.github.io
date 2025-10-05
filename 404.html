@@ -1,22 +1,185 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-        <meta name="viewport" content="width=device-width">
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <div class="box404 centered">
-            <div class="title404">404</div>
-            <div class="text404">The page, you are looking for does not exist.</div>
-            <button id="JsHomeBtn" class="btn404 refresh404 centered-hor">HOME</button>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 20px;
+          background-color: #1f1f1f;
+          color: #c3c3c3;
+        }
+        .base-404 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 250px;
+            height: 250px;
+            padding: 0px 20px;
+            padding-bottom: 20px;
+        }
+        .base-404-mobile {
+            position: absolute;
+            top: 120px;
+            left: 20px;
+            right: 20px;
+            height: 250px;
+            padding: 0px 20px;
+            padding-bottom: 20px;
+        }
+        .blob {
+            background-color: #101010;
+            border-radius: 30px;
+            background-color: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(3px);
+            box-shadow: inset 0 1px 2px #ffffff50, 0 2px 4px #00000030, 0 4px 8px #00000015;
+        }
+        .blob-comp {
+            background-color: #101010;
+            border-radius: 30px;
+            border: 1px solid #fffff69;
+        }
+        .blob-btn {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            border: none;
+            padding: 10px 15px;
+            color: #c3c3c3;
+            font-size: 14px;
+            background-color: transparent;
+            transition-duration: 100ms;
+            border-radius: 20px;
+        }
+        .blob-btn-comp {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            border: none;
+            padding: 10px 15px;
+            color: #c3c3c3;
+            font-size: 14px;
+            background-color: #181818;
+            transition-duration: 100ms;
+            border-radius: 20px;
+        }
+        .blob-btn-comp:hover,
+        .blob-btn:hover {
+            background-color: #FFFFFF10;
+        }
+        .h1-current {
+            position: absolute;
+            top: 50px;
+            left: 20px;
+            right: 20px;
+            text-align: center;
+            color: #7f0f0f;
+            font-size: 85px;
+            text-shadow: 0 -1px 2px rgba(255, 255, 255, 0.31), 0 2px 4px rgba(0, 0, 0, 0.19), 0 4px 8px rgba(0, 0, 0, 0.09);
+        }
+        .h1-comp {
+            position: absolute;
+            top: 50px;
+            left: 20px;
+            right: 20px;
+            text-align: center;
+            color: #7f0f0f;
+            font-size: 85px;
+        }
+        .p-current {
+            position: absolute;
+            top: 140px;
+            left: 20px;
+            right: 20px;
+            text-align: center;
+            color: #c3c3c3;
+            font-size: 20px;
+        }
+        .p-comp {
+            position: absolute;
+            top: 140px;
+            left: 20px;
+            right: 20px;
+            text-align: center;
+            color: #c3c3c3;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="blob-comp base-404-comp">
+        <h1>404</h1>
+        <p>Page not found.</p>
+    </div>
+    <script>
+        const err_title = "404";
+        const err_desc = "Page not found";
+        const err_btn_text = "Reload";
+        function get_ios() {
+            const ua = navigator.userAgent;
+            const match = ua.match(/OS (\d+)_(\d+)_?(\d+)?/);
+            if (!match) return null;
+            return parseInt(match[1]);
+        }
+        const ios = get_ios();
+        const btnfunc = () => {
+            window.location.reload();
+        };
+        
+        if (/Android/i.test(navigator.userAgent)) {
+            document.body.innerHTML = "<h1>" + err_title + "</h1><p>" + err_desc + "</p><button id='JsReloadBtn'>" + err_btn_text + "</button>";
+            JsReloadBtn.onclick = btnfunc;
+        }
+        
+        function safari() {
+          const ua = navigator.userAgent;
+          return /Safari/.test(ua) && !/Chrome|Chromium|Edg|OPR/.test(ua);
+        }
+        
+        if (safari()) {
+            document.body.innerHTML = `
+    <div class="blob base-404">
+        <label class='h1-current'>` + err_title + `</label>
+        <label class='p-current'>` + err_desc + `</label>
+        <button class='blob blob-btn' id='JsReloadBtn'>` + err_btn_text + `</button>
+    </div>
+            `;
+            if ((function() {
+                const ua = navigator.userAgent;
+                const match = ua.match(/OS (\d+)_(\d+)_?(\d+)?/);
+                if (!match) return false;
+                return true;
+            })()) {
+                document.body.style.backgroundColor = "#08808"
+                document.body.innerHTML = `
+        <div class="base-404-mobile">
+            <label class='h1-current'>` + err_title + `</label>
+            <label class='p-current'>` + err_desc + `</label>
+            <button class='blob blob-btn' id='JsReloadBtn'>` + err_btn_text + `</button>
         </div>
-        <div class="fthtext">14H(R) Software, Inc., d3gk (#00000247)</div>
-		<script>
-			document.getElementById('JsHomeBtn').addEventListener('click', function() {
-				window.location.href = 'https://d3gk.github.io/index.html';
-			});
-		</script>
-    </body>
+                `;
+            }
+            JsReloadBtn.onclick = btnfunc;
+        } else {
+            document.body.innerHTML = `
+    <div class="blob-comp base-404">
+        <label class='h1-comp'>` + err_title + `</label>
+        <label class='p-comp'>` + err_desc + `</label>
+        <button class='blob-comp blob-btn-comp' id='JsReloadBtn'>` + err_btn_text + `</button>
+    </div>
+            `;
+            JsReloadBtn.onclick = btnfunc;
+        }
+        
+        
+        
+        
+    </script>
+</body>
 </html>
