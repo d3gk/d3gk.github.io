@@ -1,19 +1,236 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
-        <meta name="viewport" content="width=device-width">
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="./style.css">
+        <title>d3gkserv's</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #1f1f1f;
+                color: #c3c3c3;
+                background-image: url('wallp.png');
+            }
+            
+            sidebar-maxi-only {
+                visibility: collapse;
+                transition: visibility 400ms linear;
+            }
+            sidebar-maxi-only {
+                visibility: visible;
+                transition: visibility 400ms linear;
+            }
+            label {
+                font-size: 16px;
+                color: #c3c3c3;
+            }
+            
+            .blob {
+                background-color: #101010;
+                border-radius: 30px;
+                background-color: rgba(0, 0, 0, 0.3);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(3px);
+                box-shadow: inset 0 1px 2px #ffffff50, 0 2px 4px #00000030, 0 4px 8px #00000015;
+            }
+            .blob-simple {
+                background-color: #101010;
+                border-radius: 30px;
+                background-color: rgba(0, 0, 0, 0.3);
+                backdrop-filter: blur(30px);
+                -webkit-backdrop-filter: blur(33px);
+                border: 1px solid #FFFFFF20;
+            }
+            .vstack {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            }
+            .hstack {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+            }
+            
+            .lo-sidebar {
+                transition:
+                    min-width 400ms ease-in-out,
+                    bottom 600ms ease-in-out;
+            
+            }
+            .lo-sidebar-mini {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                bottom: 20px;
+                min-width: 60px;
+            }
+            .lo-sidebar-maxi {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                bottom: 350px;
+                min-height: 400px;
+                min-width: 200px;
+            }
+            .sidebar-btn {
+                height: 50px;
+                border: none;
+                width: 50px;
+                border-radius: 25px;
+                background-color: #00000000;
+                transition:
+                    width 400ms ease-in-out,
+                    background-color 100ms ease-in-out;
+                margin: 5px;
+                color: #c3c3c3;
+                font-size: 20px;
+            }
+            .lo-content-tab {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                bottom: 20px;
+                transition: left 400ms ease-in-out;
+            }
+            .lo-content-tab-sbmini {
+                left: 100px;
+            }
+            .lo-content-tab-sbmaxi {
+                left: 240px;
+            }
+            .sidebar-btn:hover {
+                background: #FFFFFF12;
+            }
+       
+        </style>
     </head>
     <body>
-		
-		<script>
-
-let maintenance = true;			
-if (maintenance) { 
-	window.location.href = './maintenance.html';
-}
-		</script>
+        
+        <div id="JsDSidebar" class="blob lo-sidebar lo-sidebar-mini">
+            <div class="vstack" style="position: absolute; left: 0%; right: 0%;">
+                <button id="JsBSidebarExpand" class="sidebar-btn" style="margin-top: 7px;">
+                    <div class="vstack" style="position: absolute; left: 20px; top: 24px;">
+                        <div style="height: 2px; width: 20px; background-color: #c3c3c3; margin-top: 0px;"></div>
+                        <div style="height: 2px; width: 20px; background-color: #c3c3c3; margin-top: 4px;"></div>
+                        <div style="height: 2px; width: 20px; background-color: #c3c3c3; margin-top: 4px;"></div>
+                    </div>
+                </button>
+                <button id="JsBHome" class="sidebar-btn">
+                    <label class="sidebar-maxi-only">Home</label>
+                </button>
+                <button id="JsBProjects" class="sidebar-btn">
+                    <label class="sidebar-maxi-only">Projects</label>
+                </button>
+                <button id="JsBContactMe" class="sidebar-btn">
+                    <label class="sidebar-maxi-only">Contact Me</label>
+                </button>
+            </div>
+        </div>
+        
+        <div id="JsDContentTab" class="blob lo-content-tab lo-content-tab-sbmini">
+        </div>
+        
+        <script>
+            const is_desktop = true;
+            let navigation_state = "home";
+            let _state = {
+                sidebar_expanded: false
+            }
+            var desktop = (function() {
+                var _sb_expand = function() {
+                    JsDSidebar.classList.remove("lo-sidebar-mini");
+                    JsDSidebar.classList.add("lo-sidebar-maxi");
+                    _state.sidebar_expanded = true;
+                    var els = document.getElementsByClassName("sidebar-btn");
+                    for (let i = 0; i < els.length; i++) {
+                        els[i].style.width = "190px";
+                    }
+                    const els2 = document.getElementsByClassName("sidebar-mini-only");
+                    for (let i = 0; i < els2.length; i++) {
+                        els2[i].style.visibility = "collapse";
+                    }
+                    const els3 = document.getElementsByClassName("sidebar-maxi-only");
+                    for (let i = 0; i < els3.length; i++) {
+                        els3[i].style.visibility = "visible";
+                    }
+                    JsDContentTab.classList.remove("lo-content-tab-sbmini");
+                    JsDContentTab.classList.add("lo-content-tab-sbmaxi");
+                }
+                var _sb_shrink = function() {
+                    JsDSidebar.classList.remove("lo-sidebar-maxi");
+                    JsDSidebar.classList.add("lo-sidebar-mini");
+                    _state.sidebar_expanded = false;
+                    const els = document.getElementsByClassName("sidebar-btn");
+                    for (let i = 0; i < els.length; i++) {
+                        els[i].style.width = "50px";
+                    }
+                    const els2 = document.getElementsByClassName("sidebar-mini-only");
+                    for (let i = 0; i < els2.length; i++) {
+                        els2[i].style.visibility = "visible";
+                    }
+                    const els3 = document.getElementsByClassName("sidebar-maxi-only");
+                    for (let i = 0; i < els3.length; i++) {
+                        els3[i].style.visibility = "collapse";
+                    }
+                    JsDContentTab.classList.remove("lo-content-tab-sbmaxi");
+                    JsDContentTab.classList.add("lo-content-tab-sbmini");
+                }
+                var _nav_goto = function(destination) {
+                    
+                }
+                return {
+                    navigation: {
+                        goto: _nav_goto
+                    },
+                    sidebar: {
+                        expand: _sb_expand,
+                        shrink: _sb_shrink,
+                        expanded: function() { return _state.sidebar_expanded }
+                    }
+                }
+            })();
+            
+            
+            
+            function main() {
+                const params = new URLSearchParams(window.location.search);
+                
+                if (params.get("magicword") != "please") {
+                    window.location.href = "https://d3gk.github.io/maintenance.html";
+                }
+            
+            
+                if (params.get("appearance") == "simple") {
+                    JsDSidebar.classList.remove("blob");
+                    JsDSidebar.classList.add("blob-simple");
+                    JsDContentTab.classList.remove("blob");
+                    JsDContentTab.classList.add("blob-simple");
+                    
+                }
+                
+                if (params.get("tab") == "projects") {
+                    desktop.navigation.goto("projects");
+                } else if (params.get("tab") == "contactme") {
+                    desktop.navigation.goto("contactme");
+                }
+                
+                if (is_desktop) {
+                    desktop.sidebar.shrink();
+                    JsBSidebarExpand.onclick = function() {
+                        if (desktop.sidebar.expanded()) {
+                            desktop.sidebar.shrink();
+                        } else {
+                            desktop.sidebar.expand();
+                        }
+                    }
+                } else {
+                    
+                }
+            }
+            
+            
+            main()
+        </script>
     </body>
 </html>
