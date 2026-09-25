@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>beta</key>
+        <true/>
+        <key>build</key>
+        <string>26A0924m</string>
+        <key>description</key>
+        <string></string>
+        <key>downloadurl</key>
+        <string>https://d3gk.github.io/iconformatter/download</string>
+        <key>name</key>
+        <string>Icon Formatter 1.0 Beta 1</string>
+        <key>updateid</key>
+        <integer>10000000</integer>
+        <key>version</key>
+        <string>1.0</string>
+    </dict>
+</plist>
